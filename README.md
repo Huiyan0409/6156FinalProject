@@ -31,4 +31,4 @@ python run.py --do_train --do_eval  --model_type roberta --model_name_or_path $p
 
 Remeber to specify the correct path to `data_dir`. If need  load a checkpoint, specify the path to `model_path` and add a new arg `--load_model_path` to `python run.py`
 
-3. sh run.sh
+3. `sh run.sh`

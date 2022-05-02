@@ -49,3 +49,5 @@ beam_size=10
 
 python run.py --do_test --model_type roberta --model_name_or_path microsoft/codebert-base --load_model_path $test_model --test_filename $test_file --output_dir $output_dir --max_source_length $source_length --max_target_length $target_length --beam_size $beam_size --eval_batch_size $batch_size
 ```
+Use `test_file` to specify the test data and use `test_model` to load a check_point.  
+Some checkpoints can be found in this link https://drive.google.com/drive/folders/1w9C-Hc5XNbWQXIZko0JTIEDzOOsEsWc6?usp=sharing

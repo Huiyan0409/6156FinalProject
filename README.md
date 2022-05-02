@@ -10,7 +10,7 @@ Need at least one GPU
 ## How to train
 1. `cd multi-task/code`
 2. open train.sh, it should have something like these:  
-`
+```
 lr=5e-5  
 batch_size=12  
 beam_size=10  
@@ -26,7 +26,7 @@ model_path=$output_dir/checkpoint-last/pytorch_model.bin #--load_model_path $mod
 fn_weights=0.5  
 
 python run.py --do_train --do_eval  --model_type roberta --model_name_or_path $pretrained_model    --train_filename $train_file --dev_filename $dev_file --output_dir $output_dir --max_source_length $source_length --max_target_length $target_length --beam_size $beam_size --train_batch_size $batch_size --eval_batch_size $batch_size --learning_rate $lr --num_train_epochs $epochs --fn_weights $fn_weights
-`
+```
 
 
 Remeber to specify the correct path to `data_dir`. If need  load a checkpoint, specify the path to `model_path` and add a new arg `--load_model_path` to `python run.py`
@@ -36,7 +36,7 @@ Remeber to specify the correct path to `data_dir`. If need  load a checkpoint, s
 ## How to test
 1. `cd multi-task/code`
 2. open infer.sh and you can find something as follows:
-`
+```
 batch_size=16  
 data_dir=../dataset  
 output_dir=model/test  
@@ -48,4 +48,4 @@ target_length=128
 beam_size=10  
 
 python run.py --do_test --model_type roberta --model_name_or_path microsoft/codebert-base --load_model_path $test_model --test_filename $test_file --output_dir $output_dir --max_source_length $source_length --max_target_length $target_length --beam_size $beam_size --eval_batch_size $batch_size
-`
+```

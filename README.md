@@ -51,6 +51,6 @@ python run.py --do_test --model_type roberta --model_name_or_path microsoft/code
 ```
 Use `test_file` to specify the test data and use `test_model` to load a check_point.  
 Some checkpoints can be found in this link https://drive.google.com/drive/folders/1w9C-Hc5XNbWQXIZko0JTIEDzOOsEsWc6?usp=sharing
-(test_0.2 means when \alpha is set to 0.2)
+(test_0.2 means when \alpha is set to 0.2)   
 3. `sh infer.sh`
-
+Aftrer running this script, under `output_dir` you can find some .output files where you find the outputs of the model.

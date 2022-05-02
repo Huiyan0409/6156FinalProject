@@ -1,6 +1,15 @@
 # 6156FinalProject： Multi-task method generation
 
-## prerequests
+## Team Members
+Changshu Liu (cl4062), Zhangyi Pan (zp2223), Huiyan Zhang (hz2757)
+
+## Project Overview
+Given a description of a method in words which is called docstring, and a signature that contains the function name and the input name, researchers believe that there are models which can predict the code of the entire method successfully. To better finish this task, we proposed a new multi-task learning framework, containing a common encoder and two different decoders. The first decoder was used to generate the summarization of the docstring and the second decoder could come up with the code of the method body. In this repo, you can find code and dataset to train and test our newly proposed model. 
+
+## Repository Structure
+/
+
+## Prerequests
 pytorch == 1.11
 
 transformers==4.17.0

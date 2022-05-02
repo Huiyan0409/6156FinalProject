@@ -7,7 +7,13 @@ Changshu Liu (cl4062), Zhangyi Pan (zp2223), Huiyan Zhang (hz2757)
 Given a description of a method in words which is called docstring, and a signature that contains the function name and the input name, researchers believe that there are models which can predict the code of the entire method successfully. To better finish this task, we proposed a new multi-task learning framework, containing a common encoder and two different decoders. The first decoder was used to generate the summarization of the docstring and the second decoder could come up with the code of the method body. In this repo, you can find code and dataset to train and test our newly proposed model. 
 
 ## Repository Structure
-/
+/dataset: contains the dataset we derived from the orginal CodeXGLUE study and used in this project
+
+/help-functions: contains several functions we used to derive the dataset
+
+/multi-task: the main part of our project, contains the code, the used dataset and the evaluator
+
+/paper-work: contains the project proposal, project progress report, project final report and the demo slides
 
 ## Prerequests
 pytorch == 1.11

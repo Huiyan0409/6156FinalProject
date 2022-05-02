@@ -1,0 +1,10 @@
+1	for node in self.children:<EOL><INDENT>if node.is_leaf():<EOL><INDENT>yield node<EOL><DEDENT><DEDENT>
+0	p[<NUM_LIT:0>] = p[<NUM_LIT:1>]<EOL>
+4	for event in self.events:<EOL><INDENT>self.events.flush()<EOL><DEDENT>
+9	raise NotImplementedError('<STR_LIT>'.format(self))<EOL>
+6	self.x = x<EOL>self.x = x<EOL>self.x = x<EOL>self.x = x<EOL>
+5	return self._get_temp('<STR_LIT>')<EOL>
+8	return self.rect()<EOL>
+2	<EOL>return (<NUM_LIT:1>, <NUM_LIT:1>)<EOL>
+3	if hasattr(self, '<STR_LIT>'):<EOL><INDENT>getattr(self, '<STR_LIT>', None)<EOL><DEDENT>else:<EOL><INDENT>getattr(self, '<STR_LIT>', None)<EOL><DEDENT>
+7	self.assertEqual(other, msg)<EOL>

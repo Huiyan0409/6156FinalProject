@@ -1,0 +1,10 @@
+1	level = self.get_level_level(level)<EOL>if level == <NUM_LIT:0>:<EOL><INDENT>return level<EOL><DEDENT>else:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>
+0	p[<NUM_LIT:0>] = p[<NUM_LIT:1>]<EOL>
+4	self.loop.run()<EOL>
+9	raise NotImplementedError('<STR_LIT>' % type(self))<EOL>
+6	return self.x<EOL>
+5	
+8	if len(self._rects) == <NUM_LIT:0>:<EOL><INDENT>return None<EOL><DEDENT>else:<EOL><INDENT>return None<EOL><DEDENT>
+2	return self._next_errors<EOL>
+3	raise NotImplementedError()<EOL>
+7	self.assertTrue(val, msg=msg)<EOL>

@@ -1,0 +1,500 @@
+0	pass<EOL>
+1	return self.__state<EOL>
+2	pass<EOL>
+3	pass<EOL>
+4	config = config.get("<STR_LIT>")<EOL>config = config.get("<STR_LIT>")<EOL>config = config.get("<STR_LIT>")<EOL>config = config.get("<STR_LIT>")<EOL>config = config.get("<STR_LIT>")<EOL>config = config.get("<STR_LIT>")<EOL>config = config.get("<STR_LIT>")<EOL>config = config.get("<
+5	if key in ('<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR
+6	return self.__tag<EOL>
+7	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=config.config, is_container='<STR_LIT>', presence=False, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods,
+8	if error is None:<EOL><INDENT>error = '<STR_LIT>'<EOL><DEDENT>if error:<EOL><INDENT>error = '<STR_LIT>'<EOL><DEDENT>if error:<EOL><INDENT>error = '<STR_LIT>'<EOL><DEDENT>if error:<EOL><INDENT>error = '<STR_LIT>'<EOL><DEDENT>if error:<EOL><INDENT>error =
+9	pass<EOL>
+10	
+11	raise NotImplementedError<EOL>
+12	if match_obj is None:<EOL><INDENT>match = match_obj['<STR_LIT>']<EOL><DEDENT>if match_obj:<EOL><INDENT>match = match_obj['<STR_LIT>']<EOL><DEDENT>else:<EOL><INDENT>match = match_obj['<STR_LIT>']<EOL><DEDENT>if match_obj:<EOL><INDENT>match = match_obj['<STR_LIT>']<EOL
+13	pass<EOL>
+14	
+15	try:<EOL><INDENT>dirs = []<EOL><DEDENT>except ImportError:<EOL><INDENT>dirs = '<STR_LIT>'<EOL><DEDENT>if '<STR_LIT>' in dir:<EOL><INDENT>dirs = '<STR_LIT>'<EOL><DEDENT>else:<EOL><INDENT>dirs = '<STR_LIT>'<EOL><DEDENT>if '<STR_LIT>'
+16	raise NotImplementedError<EOL>
+17	if filename is None:<EOL><INDENT>filename = filename<EOL><DEDENT>if filename is None:<EOL><INDENT>filename = filename<EOL><DEDENT>if filename is None:<EOL><INDENT>filename = filename<EOL><DEDENT>if filename is None:<EOL><INDENT>filename = filename<EOL><DEDENT>if filename is None:<EOL><INDENT>filename = filename<EOL><DEDENT>if filename is None:<EOL><INDENT
+18	data = {<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL
+19	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_name, '<STR_LIT:str>'),<EOL>'<STR_LIT>
+20	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<STR_L
+21	pass<EOL>
+22	return self.__authentication_key<EOL>
+23	try:<EOL><INDENT>return None<EOL><DEDENT>except ImportError:<EOL><INDENT>return None<EOL><DEDENT>
+24	return self.__config<EOL>
+25	headers = {<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL
+26	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=as.as, is_container='<STR_LIT>', presence=False, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods,
+27	return self.__reset_trigger<EOL>
+28	pass<EOL>
+29	raise NotImplementedError<EOL>
+30	print("<STR_LIT>")<EOL>print("<STR_LIT>")<EOL>print("<STR_LIT>")<EOL>print("<STR_LIT>")<EOL>print("<STR_LIT>")<EOL>print("<STR_LIT>")<EOL>print("<STR_LIT>")<EOL>print("<STR_LIT>")<EOL>print("<STR_LIT>")<EOL>print("<STR_LIT>")
+31	return json.dumps(json_json)<EOL>
+32	return self.__unknown_value<EOL>
+33	raise NotImplementedError()<EOL>
+34	dirs = []<EOL>for dirname in dirname:<EOL><INDENT>for dirname in dirname:<EOL><INDENT>dirs.append(dirname)<EOL><DEDENT><DEDENT>return dirname<EOL>
+35	pass<EOL>
+36	return self.__description<EOL>
+37	with open(filename, '<STR_LIT:rb>') as f:<EOL><INDENT>return f.read()<EOL><DEDENT>
+38	raise NotImplementedError()<EOL>
+39	
+40	return self.__ipv4_interface_address<EOL>
+41	raise NotImplementedError()<EOL>
+42	raise NotImplementedError<EOL>
+43	return self._url<EOL>
+44	if isinstance(text, str):<EOL><INDENT>text = text.strip()<EOL><DEDENT>return text<EOL>
+45	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGListType("<STR_LIT>",type="<STR_LIT>",type="<STR_LIT>", rest_type="<STR_LIT>", parent=self, is_container='<STR_LIT:list>', user_ordered=False, path_helper
+46	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=RestrictedClassType(base_type=RestrictedClassType(base_type=long, restriction_dict={'<STR_LIT>': ['<STR_LIT>']}, int_size=<NUM_LIT:32>), restriction_dict={'<STR_LIT>': [u
+47	return self.__max_link_bandwidth<EOL>
+48	return self.__total_paths<EOL>
+49	return '<STR_LIT>'<EOL>
+50	if folder is None:<EOL><INDENT>return None<EOL><DEDENT>else:<EOL><INDENT>return None<EOL><DEDENT>
+51	return self.__extended_ipv4<EOL>
+52	logger.debug("<STR_LIT>")<EOL>logger.debug("<STR_LIT>")<EOL>logger.debug("<STR_LIT>")<EOL>logger.debug("<STR_LIT>")<EOL>return loggers<EOL>
+53	raise NotImplementedError<EOL>
+54	return self._type<EOL>
+55	return self.__net<EOL>
+56	pass<EOL>
+57	pass<EOL>
+58	pass<EOL>
+59	pass<EOL>
+60	raise NotImplementedError()<EOL>
+61	pass<EOL>
+62	raise NotImplementedError()<EOL>
+63	for package in packages:<EOL><INDENT>package.extend(package)<EOL><DEDENT>
+64	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=RestrictedClassType(base_type=unicode, restriction_dict={'<STR_LIT>': u'<STR_LIT>', '<STR_LIT>': [u'<STR_LIT>']}), is_leaf=True, yang_name="<STR_L
+65	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<STR_L
+66	return self.__subtype<EOL>
+67	return self.__extended_prefix_range<EOL>
+68	if len(shape) == <NUM_LIT:2>:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if len(shape) == <NUM_LIT:2>:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if len(shape) == <NUM_LIT:1>:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if len(shape) ==
+69	raise NotImplementedError<EOL>
+70	try:<EOL><INDENT>logging.info("<STR_LIT>")<EOL><DEDENT>except Exception as e:<EOL><INDENT>logger.info("<STR_LIT>")<EOL>logger.info("<STR_LIT>".format(e))<EOL>logger.info("<STR_LIT>".format(e))<EOL>logger.info("<STR_LIT>".format(e))<EOL>logger.info("<STR_L
+71	raise NotImplementedError()<EOL>
+72	return list(self.keys())<EOL>
+73	return self.__config<EOL>
+74	return self.__se_routing<EOL>
+75	if image_path is None:<EOL><INDENT>image_path = '<STR_LIT>'<EOL><DEDENT>if image_path is None:<EOL><INDENT>image_path = '<STR_LIT>'<EOL><DEDENT>if image_path is None:<EOL><INDENT>image_path = '<STR_LIT>'<EOL><DEDENT>if image_path is None:<EOL><INDENT>image_path = '<STR_LIT
+76	return {}<EOL>
+77	if wave is None:<EOL><INDENT>wave = wave.wave<EOL><DEDENT>if wave is None:<EOL><INDENT>wave = wave.wave<EOL><DEDENT>else:<EOL><INDENT>wave = wave.wave<EOL><DEDENT>wave = wave.wave<EOL><DEDENT>return wave<EOL>
+78	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=RestrictedClassType(base_type=unicode, restriction_dict={'<STR_LIT>': u'<STR_LIT>', '<STR_LIT>': [u'<STR_LIT>']}), is_leaf=True, yang_name="<STR_L
+79	super(Admin, self).__init__()<EOL>self.user = user<EOL>
+80	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=config.config, is_container='<STR_LIT>', presence=False, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods,
+81	
+82	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<STR_L
+83	return self.__config<EOL>
+84	pass<EOL>
+85	pass<EOL>
+86	pass<EOL>
+87	<EOL>try:<EOL><INDENT>job_id = job_id.get('<STR_LIT>')<EOL>job_id = job_id.get('<STR_LIT>')<EOL>job_id = job_id.get('<STR_LIT>')<EOL>job_id = job_id.get('<STR_LIT>')<EOL>job_id = job_id.get('<STR_LIT>')<EOL>job_id = job_id.
+88	pass<EOL>
+89	<EOL>if t is None:<EOL><INDENT>t = t<EOL><DEDENT>if t is None:<EOL><INDENT>t = t<EOL><DEDENT>if t is None:<EOL><INDENT>t = t<EOL><DEDENT>if t is None:<EOL><INDENT>t = t<EOL><DEDENT>if t is None:<EOL><INDENT>t = t<EOL><DEDENT>if t is None:<E
+90	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=RestrictedClassType(base_type=RestrictedClassType(base_type=long, restriction_dict={'<STR_LIT>': ['<STR_LIT>']}, int_size=<NUM_LIT:32>), restriction_dict={'<STR_LIT>': [u
+91	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=RestrictedClassType(base_type=RestrictedClassType(base_type=int, restriction_dict={'<STR_LIT>': ['<STR_LIT>']}, int_size=<NUM_LIT:8>), restriction_dict={'<STR_LIT>': [u
+92	
+93	return len(list)<EOL>
+94	return None<EOL>
+95	if registry is not None:<EOL><INDENT>raise ValueError('<STR_LIT>')<EOL><DEDENT>if registry is not None:<EOL><INDENT>raise ValueError('<STR_LIT>')<EOL><DEDENT>if registry is not None:<EOL><INDENT>raise ValueError('<STR_LIT>')<EOL><DEDENT>if registry is not None:<EOL><INDENT>raise ValueError('<STR_LIT>')<EOL><DED
+96	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=RestrictedClassType(base_type=unicode, restriction_dict={'<STR_LIT>': [u'<STR_LIT>']}), is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self
+97	
+98	if path.startswith(path):<EOL><INDENT>return False<EOL><DEDENT>else:<EOL><INDENT>return False<EOL><DEDENT>
+99	if labels is None:<EOL><INDENT>labels = ['<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>
+100	pass<EOL>
+101	if seed is None:<EOL><INDENT>seed = None<EOL><DEDENT>if seed is None:<EOL><INDENT>seed = None<EOL><DEDENT>return None<EOL>
+102	self.category = category<EOL>self.category = category<EOL>self.category = category<EOL>
+103	
+104	return self.__config<EOL>
+105	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=config.config, is_container='<STR_LIT>', presence=False, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods,
+106	
+107	return self._data.get("<STR_LIT>")<EOL>
+108	
+109	<EOL>if self.mu is None:<EOL><INDENT>self.mu = mu<EOL><DEDENT>else:<EOL><INDENT>self.mu = mu<EOL><DEDENT>else:<EOL><INDENT>self.mu = mu<EOL><DEDENT>
+110	raise NotImplementedError()<EOL>
+111	pass<EOL>
+112	pass<EOL>
+113	return self.__link_loss<EOL>
+114	return self.__state<EOL>
+115	self.parser.add_argument('<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>')<EOL>
+116	pass<EOL>
+117	if isinstance(command, str):<EOL><INDENT>command = '<STR_LIT>'<EOL><DEDENT>elif isinstance(command, str):<EOL><INDENT>command = '<STR_LIT>'<EOL><DEDENT>elif isinstance(command, str):<EOL><INDENT>command = '<STR_LIT>'<EOL><DEDENT>else:<EOL><INDENT>command = '<STR_LIT>'<EOL><DED
+118	raise NotImplementedError()<EOL>
+119	return self.__origin<EOL>
+120	if dtype is None:<EOL><INDENT>dtype = dtype.dtype<EOL><DEDENT>else:<EOL><INDENT>dtype = dtype.dtype<EOL><DEDENT>dtype = dtype.dtype<EOL>dtype = dtype.dtype<EOL>dtype = dtype.dtype<EOL>dtype = dtype.dtype.dtype.dtype<EOL>dtype = dtype.dtype<EOL>dtype = dtype.
+121	pass<EOL>
+122	<EOL>try:<EOL><INDENT>target_target = target_target[target]<EOL><DEDENT>except KeyError:<EOL><INDENT>target_target = target_target[target]<EOL><DEDENT>except KeyError:<EOL><INDENT>target_target = target_target[target]<EOL><DEDENT>if target_target:<EOL><INDENT>target_target = target_target[target_target]<EOL><DEDENT>if target_target:
+123	raise NotImplementedError<EOL>
+124	_validate_not_none('<STR_LIT>', '<STR_LIT>', '<STR_LIT>',<EOL>'<STR_LIT>',<EOL>'<STR_LIT>',<EOL>'<STR_LIT>',<EOL>'<STR_LIT>',<EOL>'<STR_LIT>',<EOL>'<STR_LIT>',<EOL>'<STR_LIT>',<EOL>'<STR_LIT>
+125	pass<EOL>
+126	pass<EOL>
+127	return self.__ignore_next_metric<EOL>
+128	return '<STR_LIT>'<EOL>
+129	pass<EOL>
+130	raise NotImplementedError()<EOL>
+131	return getattr(self, name)<EOL>
+132	if isinstance(url, str):<EOL><INDENT>url = '<STR_LIT>'<EOL><DEDENT>else:<EOL><INDENT>url = '<STR_LIT>'<EOL><DEDENT>if isinstance(url, str):<EOL><INDENT>url = '<STR_LIT>'<EOL><DEDENT>else:<EOL><INDENT>url = '<STR_LIT>'<EOL><DEDENT>url = '<STR_
+133	return <NUM_LIT:0><EOL>
+134	if axis == <NUM_LIT:0>:<EOL><INDENT>return None<EOL><DEDENT>else:<EOL><INDENT>return None<EOL><DEDENT>
+135	
+136	if headers is None:<EOL><INDENT>headers = {'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR
+137	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=config.config, is_container='<STR_LIT>', presence=False, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods,
+138	return self.__config<EOL>
+139	pass<EOL>
+140	if image_name is None:<EOL><INDENT>image_name = '<STR_LIT>'<EOL><DEDENT>if image_name is None:<EOL><INDENT>image_name = '<STR_LIT>'<EOL><DEDENT>if image_name is None:<EOL><INDENT>image_name = '<STR_LIT>'<EOL><DEDENT>if image_name is None:<EOL><INDENT>image_name = '<STR_LIT
+141	if raw_channel is None:<EOL><INDENT>raw_channel = json.loads(raw_channel)<EOL><DEDENT>if raw_channel is None:<EOL><INDENT>raw_channel = json.loads(raw_channel)<EOL><DEDENT>else:<EOL><INDENT>raw_channel = json.loads(raw_channel)<EOL><DEDENT>return raw_channel<EOL>
+142	
+143	pass<EOL>
+144	pass<EOL>
+145	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<STR_L
+146	return self.__extended_admin_group<EOL>
+147	raise NotImplementedError()<EOL>
+148	p[<NUM_LIT:0>] = [<NUM_LIT:2>]<EOL>
+149	raise NotImplementedError<EOL>
+150	template = '<STR_LIT>'<EOL>template = '<STR_LIT>'<EOL>template = '<STR_LIT>'<EOL>template = '<STR_LIT>'<EOL>template = '<STR_LIT>'<EOL>template = '<STR_LIT>'<EOL>template = '<STR_LIT>'<EOL>template = '<STR_LIT>'<EOL>template = '<STR_LIT>'<EOL>
+151	return self.__neighbor<EOL>
+152	pass<EOL>
+153	return list(self.values())<EOL>
+154	if not layers:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if not layers:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if not layers:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if not layers:<EOL><INDENT>raise ValueError("<STR_LIT>"<EOL>"<STR_LIT>")<EOL><
+155	if t is None:<EOL><INDENT>t = t<EOL><DEDENT>if t is None:<EOL><INDENT>t = t<EOL><DEDENT>if t is None:<EOL><INDENT>t = t<EOL><DEDENT>if t is None:<EOL><INDENT>t = t<EOL><DEDENT>if t is None:<EOL><INDENT>t = t<EOL><DEDENT>if t is None:<EOL><INDENT
+156	if not os.path.isfile(file):<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if not os.path.isfile(file):<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if not os.path.isfile(file):<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if not os.path.isfile(file):<EOL><
+157	if mask is None:<EOL><INDENT>mask = mask.shape<EOL><DEDENT>if mask is None:<EOL><INDENT>mask = mask.shape<EOL><DEDENT>if mask is None:<EOL><INDENT>mask = mask.shape<EOL><DEDENT>if mask is None:<EOL><INDENT>mask = mask.shape<EOL><DEDENT>if mask is None:<EOL><INDENT>mask = mask.shape<EOL><DEDENT>if
+158	pass<EOL>
+159	pass<EOL>
+160	if hasattr(op, '<STR_LIT>'):<EOL><INDENT>opts = getattr(opts, '<STR_LIT>', None)<EOL><DEDENT>else:<EOL><INDENT>opts = getattr(op, '<STR_LIT>', None)<EOL>opts = getattr(opts, '<STR_LIT>', None)<EOL>opts = getattr(opts, '<STR_LIT>', None)<EOL>
+161	
+162	return self.__topologies<EOL>
+163	
+164	<EOL>if panel_id not in ('<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>',<EOL>'<STR_LIT>',<EOL>'<STR_LIT>',<EOL>'<STR_LIT>',<EOL>'<STR_LIT>',<EOL>'<STR_LIT>',<EOL>'<STR_LIT>',<EOL>
+165	raise NotImplementedError<EOL>
+166	if attrs is None:<EOL><INDENT>attrs = ['<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT
+167	raise NotImplementedError<EOL>
+168	params = {<EOL>"<STR_LIT>": "<STR_LIT>",<EOL>"<STR_LIT>": "<STR_LIT>",<EOL>"<STR_LIT>": "<STR_LIT>",<EOL>"<STR_LIT>": "<STR_LIT>",<EOL>"<STR_LIT>": "<STR_LIT>",<EOL>"<STR_LIT>": "<STR_LIT>",<EOL>"<STR_LIT>": "<STR_L
+169	if not os.path.isfile(root):<EOL><INDENT>raise ValueError('<STR_LIT>')<EOL><DEDENT>if not os.path.isfile(root):<EOL><INDENT>raise ValueError('<STR_LIT>')<EOL><DEDENT>if not os.path.isfile(root):<EOL><INDENT>raise ValueError('<STR_LIT>')<EOL><DEDENT>if not os.path.isfile(root):<EOL><
+170	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=RestrictedClassType(base_type=long, restriction_dict={'<STR_LIT>': ['<STR_LIT>']}, int_size=<NUM_LIT:32>), is_leaf=True, yang_name="<STR_LIT>", rest_name="<
+171	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=RestrictedClassType(base_type=unicode,                                     restriction_type="<STR_LIT>",         
+172	
+173	return '<STR_LIT>'<EOL>
+174	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=state.state, is_container='<STR_LIT>', presence=False, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods,
+175	x = x.shape[<NUM_LIT:0>]<EOL>x = x.shape[<NUM_LIT:1>]<EOL>x = x.shape[<NUM_LIT:1>]<EOL>x = x.shape[<NUM_LIT:1>]<EOL>x = x.shape[<NUM_LIT:1>]<EOL>x = x.shape[<NUM_LIT:1>]<EOL>x = x.shape[<NUM_LIT:1>]<EOL>
+176	raise NotImplementedError()<EOL>
+177	pass<EOL>
+178	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGListType("<STR_LIT>",af.af, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, is_container='<STR_LIT:list>', user_ordered=False, path_helper=self
+179	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", server_name, '<STR_LIT:str>'),<EOL>'<STR_LIT>
+180	return datetime.datetime.now()<EOL>
+181	raise NotImplementedError<EOL>
+182	return self.__drop<EOL>
+183	raise NotImplementedError()<EOL>
+184	if rho is None:<EOL><INDENT>return None<EOL><DEDENT>else:<EOL><INDENT>return None<EOL><DEDENT>
+185	pass<EOL>
+186	pass<EOL>
+187	if script_name is None:<EOL><INDENT>script_name = script_name<EOL><DEDENT>if script_name is None:<EOL><INDENT>script_name = script_name<EOL><DEDENT>if script_name is None:<EOL><INDENT>script_name = script_name<EOL><DEDENT>if script_name is None:<EOL><INDENT>script_name = script_name<EOL><DEDENT>if script_name is None:<EOL
+188	return json.dumps(value)<EOL>
+189	return True<EOL>
+190	if not os.path.isfile(path):<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if not os.path.isfile(path):<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if not os.path.isfile(path):<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if not os.path.isfile(path):<EOL><
+191	return self.__config<EOL>
+192	return self.__out_reserved_tournament<EOL>
+193	pass<EOL>
+194	if src == '<STR_LIT>':<EOL><INDENT>return False<EOL><DEDENT>elif src is None:<EOL><INDENT>return False<EOL><DEDENT>else:<EOL><INDENT>return False<EOL><DEDENT>
+195	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=config.config, is_container='<STR_LIT>', presence=False, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods,
+196	if attr is None:<EOL><INDENT>attr = '<STR_LIT>'<EOL><DEDENT>elif attr is None:<EOL><INDENT>attr = '<STR_LIT>'<EOL><DEDENT>elif attr is None:<EOL><INDENT>attr = '<STR_LIT>'<EOL><DEDENT>elif attr is None:<EOL><INDENT>attr = '<STR_LIT>'<EOL><DEDENT
+197	raise NotImplementedError()<EOL>
+198	if not os.path.isfile(path):<EOL><INDENT>raise Exception('<STR_LIT>')<EOL><DEDENT>if os.path.isfile(path):<EOL><INDENT>os.makedirs(path)<EOL><DEDENT>else:<EOL><INDENT>os.makedirs(path)<EOL><DEDENT>
+199	data = {<EOL>'<STR_LIT>': n.get('<STR_LIT>'),<EOL>'<STR_LIT>': n.get('<STR_LIT>'),<EOL>'<STR_LIT>': n.get('<STR_LIT>'),<EOL>'<STR_LIT>': n.get('<STR_LIT>'),<EOL>'<STR_LIT>': n.get('<STR_LIT>'),<EOL>'<STR_
+200	api_path = "<STR_LIT>"<EOL>api_path = "<STR_LIT>"<EOL>api_path = "<STR_LIT>"<EOL>api_path = "<STR_LIT>"<EOL>return api_path<EOL>
+201	pass<EOL>
+202	raise NotImplementedError()<EOL>
+203	if abs(f):<EOL><INDENT>return f<EOL><DEDENT>else:<EOL><INDENT>return f<EOL><DEDENT>
+204	raise NotImplementedError()<EOL>
+205	pass<EOL>
+206	return "<STR_LIT>"<EOL>
+207	if dataset_path is None:<EOL><INDENT>raise ValueError('<STR_LIT>')<EOL><DEDENT>if dataset_path is None:<EOL><INDENT>raise ValueError('<STR_LIT>')<EOL><DEDENT>if dataset_path is None:<EOL><INDENT>raise ValueError('<STR_LIT>')<EOL><DEDENT>if dataset_path is None:<EOL><INDENT>raise ValueError('<STR_LIT>')<E
+208	return self.__include<EOL>
+209	
+210	return self.__facility<EOL>
+211	pass<EOL>
+212	if isinstance(x, list):<EOL><INDENT>return x<EOL><DEDENT>else:<EOL><INDENT>return x<EOL><DEDENT>
+213	return self.__release_time<EOL>
+214	if self.upper:<EOL><INDENT>return None<EOL><DEDENT>else:<EOL><INDENT>return None<EOL><DEDENT>
+215	raise NotImplementedError<EOL>
+216	if category is None:<EOL><INDENT>category = category<EOL><DEDENT>if category is None:<EOL><INDENT>category = category<EOL><DEDENT>if category is not None:<EOL><INDENT>category = category<EOL><DEDENT>if category is not None:<EOL><INDENT>category = category<EOL><DEDENT>if category is not None:<EOL><INDENT>category = category<EOL><DEDENT>if category is not None:<E
+217	raise NotImplementedError<EOL>
+218	
+219	return self.__out_reserved_error_message<EOL>
+220	pass<EOL>
+221	raise NotImplementedError()<EOL>
+222	try:<EOL><INDENT>item = item['<STR_LIT>']['<STR_LIT>']<EOL><DEDENT>except KeyError:<EOL><INDENT>item = item['<STR_LIT>']<EOL>item['<STR_LIT>'] = item['<STR_LIT>']<EOL><DEDENT>if item['<STR_LIT>']:<EOL><INDENT>item['<STR_LIT>'] = item['<STR_LIT>
+223	route_values = {}<EOL>if name is not None:<EOL><INDENT>route_values['<STR_LIT>'] = self._serialize.url('<STR_LIT>', name, '<STR_LIT:str>')<EOL><DEDENT>if name is not None:<EOL><INDENT>route_values['<STR_LIT>'] = self._serialize.url('<STR_LIT>', name, '<STR_LIT:str>')<EOL><DEDENT
+224	raise NotImplementedError()<EOL>
+225	pass<EOL>
+226	pass<EOL>
+227	raise NotImplementedError<EOL>
+228	return self.__neighbor_id<EOL>
+229	raise NotImplementedError()<EOL>
+230	pass<EOL>
+231	pass<EOL>
+232	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", self._serialize.url, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", self._serialize.url, '<STR_LIT:str>'),<EOL>'<STR
+233	if not isinstance(value, str):<EOL><INDENT>raise TypeError("<STR_LIT>")<EOL><DEDENT>if not isinstance(value, list):<EOL><INDENT>raise TypeError("<STR_LIT>")<EOL><DEDENT>return value<EOL>
+234	return self.__preferred<EOL>
+235	return self.__csp_authentication<EOL>
+236	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=False, namespace
+237	raise NotImplementedError()<EOL>
+238	pass<EOL>
+239	pass<EOL>
+240	pass<EOL>
+241	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_name, '<STR_LIT:str>'),<EOL>'<STR_LIT>
+242	
+243	raise NotImplementedError<EOL>
+244	
+245	if not isinstance(ids, str):<EOL><INDENT>raise TypeError('<STR_LIT>'<EOL>'<STR_LIT>'<EOL>'<STR_LIT>'<EOL>'<STR_LIT>'<EOL>'<STR_LIT>'<EOL>'<STR_LIT>'<EOL>'<STR_LIT>'<EOL>'<STR_LIT>'<EOL>'<STR_LIT>'<EOL
+246	
+247	pass<EOL>
+248	return self.__setup_priority<EOL>
+249	raise NotImplementedError()<EOL>
+250	return self.__index<EOL>
+251	pass<EOL>
+252	raise NotImplementedError()<EOL>
+253	return self.__subinterface<EOL>
+254	return '<STR_LIT>'<EOL>
+255	pass<EOL>
+256	raise NotImplementedError<EOL>
+257	raise NotImplementedError<EOL>
+258	raise NotImplementedError()<EOL>
+259	
+260	pass<EOL>
+261	pass<EOL>
+262	if not isinstance(string, string_types):<EOL><INDENT>raise TypeError('<STR_LIT>'.format(string))<EOL><DEDENT>return string<EOL>
+263	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=state.state, is_container='<STR_LIT>', presence=False, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods,
+264	pass<EOL>
+265	return signal.get('<STR_LIT>', '<STR_LIT>')<EOL>
+266	return len(self.operation)<EOL>
+267	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=RestrictedClassType(base_type=RestrictedClassType(base_type=long, restriction_dict={'<STR_LIT>': ['<STR_LIT>']}, int_size=<NUM_LIT:32>), restriction_dict={'<STR_LIT>': [u
+268	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<STR_L
+269	<EOL>try:<EOL><INDENT>import b'<STR_LIT>'<EOL><DEDENT>except ImportError:<EOL><INDENT>return b'<STR_LIT>'<EOL><DEDENT>
+270	return self.__unreserved_bandwidth<EOL>
+271	try:<EOL><INDENT>logger.debug("<STR_LIT>")<EOL>return True<EOL><DEDENT>except ImportError:<EOL><INDENT>pass<EOL><DEDENT>
+272	return self._enabled<EOL>
+273	return self.__label_options<EOL>
+274	pass<EOL>
+275	return self.__processing<EOL>
+276	pass<EOL>
+277	pass<EOL>
+278	pass<EOL>
+279	raise NotImplementedError<EOL>
+280	return self.__prefix<EOL>
+281	pass<EOL>
+282	parser = argparse.ArgumentParser()<EOL>parser.add_argument(parser)<EOL>parser.add_argument(parser)<EOL>return parser<EOL>
+283	raise NotImplementedError()<EOL>
+284	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=RestrictedClassType(base_type=unicode,                                     restriction_type="<STR_LIT>",         
+285	return self.node<EOL>
+286	pass<EOL>
+287	ret = libxml2mod.xmlParseParse(self._o)<EOL>return ret<EOL>
+288	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=False, namespace
+289	pass<EOL>
+290	raise NotImplementedError<EOL>
+291	pass<EOL>
+292	return self._value<EOL>
+293	for item in items:<EOL><INDENT>if item in item:<EOL><INDENT>return item<EOL><DEDENT><DEDENT>return item<EOL>
+294	
+295	return self.get_history()<EOL>
+296	
+297	pass<EOL>
+298	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=RestrictedClassType(base_type=RestrictedClassType(base_type=long, restriction_dict={'<STR_LIT>': ['<STR_LIT>']}, int_size=<NUM_LIT:32>), restriction_dict={'<STR_LIT>': [u
+299	return self.__sid<EOL>
+300	raise NotImplementedError()<EOL>
+301	pass<EOL>
+302	pass<EOL>
+303	return self._matrix<EOL>
+304	return self.__dynamic_neighbor_prefix<EOL>
+305	pass<EOL>
+306	pass<EOL>
+307	
+308	pass<EOL>
+309	raise NotImplementedError<EOL>
+310	return self.__restart_timer<EOL>
+311	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=RestrictedClassType(base_type=long, restriction_dict={'<STR_LIT>': ['<STR_LIT>']}, int_size=<NUM_LIT:32>), is_leaf=True, yang_name="<STR_LIT>", rest_name="<
+312	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=RestrictedClassType(base_type=unicode, restriction_dict={'<STR_LIT>': u'<STR_LIT>'}), is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self,
+313	
+314	return self.__tag<EOL>
+315	
+316	raise NotImplementedError<EOL>
+317	if isinstance(x, int):<EOL><INDENT>return x<EOL><DEDENT>elif isinstance(x, int):<EOL><INDENT>return x<EOL><DEDENT>else:<EOL><INDENT>return x<EOL><DEDENT>
+318	for child in self:<EOL><INDENT>yield child<EOL><DEDENT>
+319	if isinstance(x, np.ndarray):<EOL><INDENT>x = x.shape<EOL><DEDENT>else:<EOL><INDENT>x = x.shape<EOL><DEDENT>x = x.shape[<NUM_LIT:0>]<EOL>x = x.shape[<NUM_LIT:1>]<EOL>x = x.shape[<NUM_LIT:1>]<EOL>x = x.shape[<NUM_LIT:1>]<EOL>x
+320	return value.lower()<EOL>
+321	pass<EOL>
+322	return self.__adjac_sid<EOL>
+323	return self.__subtype<EOL>
+324	if n_format is None:<EOL><INDENT>n_format = n_format<EOL><DEDENT>if n_format is None:<EOL><INDENT>n_format = n_format<EOL><DEDENT>else:<EOL><INDENT>n_format = n_format<EOL><DEDENT>if n_format is None:<EOL><INDENT>n_format = n_format<EOL><DEDENT>if n_format is None:<EOL><INDENT>n
+325	return self.upper()<EOL>
+326	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<STR_L
+327	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=config.config, is_container='<STR_LIT>', presence=False, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods,
+328	<EOL>if mut_base is None:<EOL><INDENT>num_base = int(num_base)<EOL><DEDENT>else:<EOL><INDENT>raise ValueError('<STR_LIT>')<EOL><DEDENT>if max_base is None:<EOL><INDENT>max_base = max_base<EOL><DEDENT>if max_base is None:<EOL><INDENT>max_base = max_base * max_base<EOL><DEDENT>
+329	pass<EOL>
+330	if user is None:<EOL><INDENT>user = getattr(user, '<STR_LIT>', None)<EOL><DEDENT>else:<EOL><INDENT>user = getattr(user, '<STR_LIT>', user)<EOL><DEDENT>return user<EOL>
+331	return '<STR_LIT>'<EOL>
+332	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=state.state, is_container='<STR_LIT>', presence=False, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods,
+333	if isinstance(x, np.ndarray):<EOL><INDENT>return x<EOL><DEDENT>else:<EOL><INDENT>return x<EOL><DEDENT>
+334	raise NotImplementedError<EOL>
+335	return self._address<EOL>
+336	raise NotImplementedError<EOL>
+337	if radius is None:<EOL><INDENT>radius = radius<EOL><DEDENT>if radius is None:<EOL><INDENT>radius = radius<EOL><DEDENT>if radius is None:<EOL><INDENT>radius = radius<EOL><DEDENT>if radius is None:<EOL><INDENT>radius = radius<EOL><DEDENT>if radius is None:<EOL><INDENT>radius = radius<EOL><DEDENT>if radius is None:<EOL><INDENT
+338	return self.__rslg_members<EOL>
+339	return self.__lsp_ipv6_ipv6<EOL>
+340	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=RestrictedClassType(base_type=unicode,                                     restriction_type="<STR_LIT>",         
+341	pass<EOL>
+342	raise NotImplementedError<EOL>
+343	raise NotImplementedError()<EOL>
+344	pass<EOL>
+345	raise NotImplementedError<EOL>
+346	pass<EOL>
+347	if family is None:<EOL><INDENT>family = family<EOL><DEDENT>if family is None:<EOL><INDENT>family = family<EOL><DEDENT>if family is None:<EOL><INDENT>family = family<EOL><DEDENT>if family is None:<EOL><INDENT>family = family<EOL><DEDENT>if family is None:<EOL><INDENT>family = family<EOL><DEDENT>else:<EOL><INDENT>family =
+348	try:<EOL><INDENT>return iter(iterable)<EOL><DEDENT>except TypeError:<EOL><INDENT>return None<EOL><DEDENT>
+349	
+350	pass<EOL>
+351	if isinstance(i, np.ndarray):<EOL><INDENT>if isinstance(i, np.ndarray):<EOL><INDENT>return i<EOL><DEDENT><DEDENT>else:<EOL><INDENT>return i<EOL><DEDENT>
+352	
+353	pass<EOL>
+354	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=admin_groups.admin_groups, is_container='<STR_LIT>', presence=False, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._
+355	
+356	return self.__value<EOL>
+357	return []<EOL>
+358	return self._completions<EOL>
+359	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=identifier.identifier, is_container='<STR_LIT>', presence=False, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethod
+360	return self.__unpack_substs<EOL>
+361	self.field = field<EOL>self.field = field<EOL>self.field = field<EOL>
+362	self.profile = profile<EOL>self.profile = profile<EOL>
+363	match_match = match_match.match(match_match, match)<EOL>match_match = match_match(match, match_match)<EOL>match_match = match_match(match, match_match)<EOL>match_match = match_match.match(match, match_match)<EOL>match_match = match_match.match(match, match_match)<EOL>match_match = match_match.match(match, match_match)<EOL>match_match = match_match.match(
+364	if n is None:<EOL><INDENT>n = <NUM_LIT:0><EOL><DEDENT>if n is None:<EOL><INDENT>n = <NUM_LIT:0><EOL><DEDENT>if n is None:<EOL><INDENT>n = <NUM_LIT:0><EOL><DEDENT>if n is None:<EOL><INDENT>n = <NUM_LIT:0><EOL><DEDENT>else:<EOL><INDENT>n
+365	raise NotImplementedError()<EOL>
+366	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=igp_ldp_sync.igp_ldp_ldp_sync, is_container='<STR_LIT>', presence=False, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._
+367	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=state.state, is_container='<STR_LIT>', presence=False, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods,
+368	return {}<EOL>
+369	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<STR_L
+370	if not isinstance(octet, str):<EOL><INDENT>raise TypeError('<STR_LIT>')<EOL><DEDENT>if not isinstance(octet, str):<EOL><INDENT>raise TypeError('<STR_LIT>')<EOL><DEDENT>if not isinstance(octet, str):<EOL><INDENT>raise TypeError('<STR_LIT>')<EOL><DEDENT>if not isinstance(octet, str):<EOL><INDENT>raise
+371	
+372	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_name, '<STR_LIT:str>'),<EOL>'<STR_LIT>
+373	url = "<STR_LIT>"<EOL>params = {"<STR_LIT>": "<STR_LIT>", "<STR_LIT>": "<STR_LIT>", "<STR_LIT>", "<STR_LIT>": "<STR_LIT>", "<STR_LIT>", "<STR_LIT>": "<STR_LIT>", "<STR_LIT>", "<STR_LIT>": "<STR_LIT>", "<STR_LIT>", "<STR_LIT>": "<STR_LIT>
+374	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=local_local.local_local, is_container='<STR_LIT>', presence=False, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._
+375	raise NotImplementedError()<EOL>
+376	super(Domain, self).__init__()<EOL>self.domain = domain<EOL>
+377	raise NotImplementedError<EOL>
+378	return self._outputs['<STR_LIT>']<EOL>
+379	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=state.state, is_container='<STR_LIT>', presence=False, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods,
+380	pass<EOL>
+381	
+382	pass<EOL>
+383	
+384	raise NotImplementedError<EOL>
+385	return self.__peer_group<EOL>
+386	if obj is None:<EOL><INDENT>obj = obj['<STR_LIT>']<EOL><DEDENT>if obj is None:<EOL><INDENT>obj['<STR_LIT>'] = obj['<STR_LIT>']<EOL><DEDENT>if obj is None:<EOL><INDENT>obj['<STR_LIT>'] = obj['<STR_LIT>']<EOL><DEDENT>else:<EOL><INDENT>obj['<STR_LIT>
+387	pass<EOL>
+388	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=config.config, is_container='<STR_LIT>', presence=False, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods,
+389	if not isinstance(bits, list):<EOL><INDENT>raise TypeError("<STR_LIT>")<EOL><DEDENT>return bits<EOL>
+390	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=RestrictedClassType(base_type=RestrictedClassType(base_type=long, restriction_dict={'<STR_LIT>': ['<STR_LIT>']}, int_size=<NUM_LIT:32>), restriction_dict={'<STR_LIT>': [u
+391	
+392	return self.__multi_topology_identity<EOL>
+393	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=RestrictedClassType(base_type=RestrictedClassType(base_type=long, restriction_dict={'<STR_LIT>': ['<STR_LIT>']}, int_size=<NUM_LIT:32>), restriction_dict={'<STR_LIT>': [u
+394	with open(filename, '<STR_LIT:rb>') as f:<EOL><INDENT>return f<EOL><DEDENT>
+395	return True<EOL>
+396	<EOL>try:<EOL><INDENT>target_score = target_score[target]<EOL><DEDENT>except KeyError:<EOL><INDENT>target_score = target_score[target]<EOL><DEDENT>try:<EOL><INDENT>target_score = target_score[target]<EOL><DEDENT>except KeyError:<EOL><INDENT>target_score = target_score[target]<EOL><DEDENT>except Exception:<EOL><INDENT>
+397	return self.__prefix<EOL>
+398	if len(wave_var) == <NUM_LIT:0>:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if len(wave_var) == <NUM_LIT:0>:<EOL><INDENT>raise ValueError("<STR_LIT>"<EOL>"<STR_LIT>"<EOL>"<STR_LIT>"<EOL>"<STR_LIT>"<EOL>"<STR_LIT>"<EOL>"<STR_LIT>")
+399	pass<EOL>
+400	if os.path.isfile(filename):<EOL><INDENT>os.makedirs(filename)<EOL><DEDENT>
+401	raise NotImplementedError<EOL>
+402	raise NotImplementedError()<EOL>
+403	raise NotImplementedError<EOL>
+404	
+405	return self._id<EOL>
+406	pass<EOL>
+407	return self.__mtn_is<EOL>
+408	try:<EOL><INDENT>import re<EOL><DEDENT>except ImportError:<EOL><INDENT>return False<EOL><DEDENT>
+409	raise NotImplementedError<EOL>
+410	<EOL>if self.shape[<NUM_LIT:0>] != <NUM_LIT:0>:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if self.shape[<NUM_LIT:0>] != <NUM_LIT:0>:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if self.shape[<NUM_LIT:0>] == <NUM_LIT:1>:<EOL><
+411	pass<EOL>
+412	raise NotImplementedError()<EOL>
+413	try:<EOL><INDENT>import module<EOL><DEDENT>except ImportError:<EOL><INDENT>return False<EOL><DEDENT>
+414	raise NotImplementedError<EOL>
+415	if value is None:<EOL><INDENT>value = '<STR_LIT>'<EOL><DEDENT>elif value is None:<EOL><INDENT>value = '<STR_LIT>' % value<EOL><DEDENT>elif value is None:<EOL><INDENT>value = '<STR_LIT>' % value<EOL><DEDENT>elif value is None:<EOL><INDENT>value = '<STR_LIT>' % value<EOL><D
+416	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=bandwidth.bandwidth, is_container='<STR_LIT>', presence=False, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethod
+417	return self.__igp_shortcuts<EOL>
+418	return self.__pass_mode<EOL>
+419	data = data['<STR_LIT>']<EOL>data['<STR_LIT>'] = data['<STR_LIT>']<EOL>data['<STR_LIT>'] = data['<STR_LIT>']<EOL>data['<STR_LIT>'] = data['<STR_LIT>']<EOL>data['<STR_LIT>'] = data['<STR_LIT>']<EOL>data['<STR_LIT>'] = data['<STR_LIT>']
+420	if value is None:<EOL><INDENT>value = {}<EOL><DEDENT>if value is None:<EOL><INDENT>value = value<EOL><DEDENT>if value is None:<EOL><INDENT>value = value<EOL><DEDENT>if value is None:<EOL><INDENT>value = value<EOL><DEDENT>if value is None:<EOL><INDENT>value = value<EOL><DEDENT>if value is None:<EOL><INDENT
+421	if isinstance(obj, (list, tuple)):<EOL><INDENT>return obj<EOL><DEDENT>else:<EOL><INDENT>return obj<EOL><DEDENT>
+422	raise NotImplementedError<EOL>
+423	print("<STR_LIT>")<EOL>
+424	if price is None:<EOL><INDENT>return None<EOL><DEDENT>else:<EOL><INDENT>return None<EOL><DEDENT>
+425	return self.__shutdown_threshold<EOL>
+426	settings = {<EOL>'<STR_LIT>': settings.get('<STR_LIT>'),<EOL>'<STR_LIT>': settings.get('<STR_LIT>'),<EOL>'<STR_LIT>': settings.get('<STR_LIT>'),<EOL>'<STR_LIT>': settings.get('<STR_LIT>'),<EOL>'<STR_LIT>': settings.get('<STR_LIT>'),<EOL>'<STR_
+427	if file_id is None:<EOL><INDENT>file_type = '<STR_LIT>'<EOL><DEDENT>if file_id is None:<EOL><INDENT>file_type = '<STR_LIT>'<EOL><DEDENT>if file_type == '<STR_LIT>':<EOL><INDENT>file_type = '<STR_LIT>'<EOL><DEDENT>elif file_type == '<STR_LIT>':<EOL><
+428	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=mpls.mpls, is_container='<STR_LIT>', presence=False, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._
+429	return "<STR_LIT>"<EOL>
+430	
+431	pass<EOL>
+432	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=RestrictedClassType(base_type=unicode, restriction_dict={'<STR_LIT>': [u'<STR_LIT>']}), is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self
+433	return self._certificate<EOL>
+434	pass<EOL>
+435	return self.__dead_time<EOL>
+436	
+437	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<STR_L
+438	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace
+439	if not node_id:<EOL><INDENT>raise ValueError('<STR_LIT>')<EOL><DEDENT>if not node_id:<EOL><INDENT>raise ValueError('<STR_LIT>')<EOL><DEDENT>if not node_id:<EOL><INDENT>raise ValueError('<STR_LIT>')<EOL><DEDENT>if not node_id:<EOL><INDENT>raise ValueError('<STR_LIT>')<EOL><DED
+440	raise NotImplementedError<EOL>
+441	pass<EOL>
+442	raise NotImplementedError<EOL>
+443	try:<EOL><INDENT>return None<EOL><DEDENT>except TypeError:<EOL><INDENT>return None<EOL><DEDENT>
+444	try:<EOL><INDENT>import library<EOL><DEDENT>except ImportError:<EOL><INDENT>return False<EOL><DEDENT>
+445	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=RestrictedClassType(base_type=unicode, restriction_dict={'<STR_LIT>': u'<STR_LIT>'}), is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self,
+446	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=config.config, is_container='<STR_LIT>', presence=False, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods,
+447	print("<STR_LIT>")<EOL>
+448	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=False, namespace
+449	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=RestrictedClassType(base_type=RestrictedClassType(base_type=long, restriction_dict={'<STR_LIT>': ['<STR_LIT>']}, int_size=<NUM_LIT:32>), restriction_dict={'<STR_LIT>': [u
+450	return self.__setup_priority<EOL>
+451	return '<STR_LIT>'<EOL>
+452	raise NotImplementedError()<EOL>
+453	raise NotImplementedError<EOL>
+454	return self.__default_export_policy<EOL>
+455	return getattr(obj, name)<EOL>
+456	raise NotImplementedError()<EOL>
+457	<EOL>if isinstance(v, str):<EOL><INDENT>v = v['<STR_LIT>']['<STR_LIT>']['<STR_LIT>']<EOL><DEDENT>if isinstance(v, str):<EOL><INDENT>v['<STR_LIT>']['<STR_LIT>']['<STR_LIT>'] = v['<STR_LIT>']['<STR_LIT>']<EOL><DEDENT>if
+458	raise NotImplementedError()<EOL>
+459	parser = argparse.ArgumentParser()<EOL>parser.add_argument(<EOL>'<STR_LIT>',<EOL>'<STR_LIT>',<EOL>'<STR_LIT>',<EOL>'<STR_LIT>',<EOL>'<STR_LIT>',<EOL>'<STR_LIT>',<EOL>'<STR_LIT>',<EOL>'<STR_LIT>',<EOL>'<STR_LIT>
+460	<EOL>x = x.shape[<NUM_LIT:0>]<EOL>x = x.shape[<NUM_LIT:1>]<EOL>x = x.shape[<NUM_LIT:1>]<EOL>x = x.shape[<NUM_LIT:1>]<EOL>x = x.shape[<NUM_LIT:1>]<EOL>x = x.shape[<NUM_LIT:1>]<EOL>x = x.shape[<NUM_LIT:1>]
+461	raise NotImplementedError<EOL>
+462	print('<STR_LIT>' % hash_id)<EOL>
+463	pass<EOL>
+464	if c is None:<EOL><INDENT>return None<EOL><DEDENT>else:<EOL><INDENT>return None<EOL><DEDENT>
+465	pass<EOL>
+466	return self.__length<EOL>
+467	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=unicode, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='<
+468	if magnitude == <NUM_LIT:0>:<EOL><INDENT>return None<EOL><DEDENT>if magnitude > <NUM_LIT:0>:<EOL><INDENT>return None<EOL><DEDENT>if magnitude > <NUM_LIT:0>:<EOL><INDENT>return None<EOL><DEDENT>if magnitude > <NUM_LIT:0>:<EOL><INDENT>return None<EOL><DEDENT>if magnitude > <NUM_LIT:0>:<EOL
+469	return self.__delay<EOL>
+470	if hasattr(obj, '<STR_LIT>'):<EOL><INDENT>return obj<EOL><DEDENT>else:<EOL><INDENT>return obj<EOL><DEDENT>
+471	pass<EOL>
+472	raise NotImplementedError()<EOL>
+473	return self.node<EOL>
+474	if input is None:<EOL><INDENT>return None<EOL><DEDENT>else:<EOL><INDENT>return None<EOL><DEDENT>
+475	pass<EOL>
+476	return self.__ipv4_unicode<EOL>
+477	
+478	pass<EOL>
+479	pass<EOL>
+480	return self.__bit_position<EOL>
+481	return "<STR_LIT>"<EOL>
+482	import argparse<EOL>import argparse<EOL>import argparse<EOL>import argparse<EOL>import argparse<EOL>import argparse<EOL>import argparse<EOL>import argparse<EOL>import argparse<EOL>import argparse<EOL>import argparse<EOL>import argparse<EOL>import argparse<EOL>import argparse<EOL>import argparse<EOL>import argparse<EOL>import argparse<EOL>import argparse<EOL>
+483	if method in ['<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR
+484	if value is None:<EOL><INDENT>value = '<STR_LIT>'<EOL><DEDENT>return value<EOL>
+485	if isinstance(obj, (list, tuple)):<EOL><INDENT>return obj<EOL><DEDENT>else:<EOL><INDENT>return obj<EOL><DEDENT>
+486	
+487	return '<STR_LIT>'<EOL>
+488	return self.__signal_bandwidth<EOL>
+489	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<STR_L
+490	
+491	return self.__subtype_type<EOL>
+492	return self.__endpoint<EOL>
+493	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=RestrictedClassType(base_type=unicode,                                     restriction_type="<STR_LIT>",         
+494	if directory is None:<EOL><INDENT>directory = directory<EOL><DEDENT>if directory is None:<EOL><INDENT>directory = directory<EOL><DEDENT>if directory:<EOL><INDENT>directory = directory<EOL><DEDENT>if directory:<EOL><INDENT>directory = directory<EOL><DEDENT>if directory:<EOL><INDENT>directory = directory<EOL><DEDENT>if directory:<EOL><INDENT>directory = directory<EOL><
+495	return self.__config<EOL>
+496	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=False, namespace
+497	raise NotImplementedError<EOL>
+498	files = []<EOL>files = []<EOL>for filename in files:<EOL><INDENT>files.append(filename)<EOL>files.append(filename)<EOL><DEDENT>return files<EOL>
+499	raise NotImplementedError<EOL>

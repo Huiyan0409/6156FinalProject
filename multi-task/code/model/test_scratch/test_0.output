@@ -1,0 +1,10 @@
+0	p[<NUM_LIT:0>] = value<EOL>
+1	if not isinstance(node_list, str):<EOL><INDENT>raise TypeError('<STR_LIT>')<EOL><DEDENT>if not isinstance(node_list, list):<EOL><INDENT>raise TypeError('<STR_LIT>')<EOL><DEDENT>if not isinstance(node_list, list):<EOL><INDENT>raise TypeError('<STR_LIT>')<EOL><DEDENT>if not isinstance(node_list, list):<EOL><
+2	return self.total_response()<EOL>
+3	if not kwargs:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if len(kwargs) > <NUM_LIT:0>:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>return kwargs<EOL>
+4	try:<EOL><INDENT>return<EOL><DEDENT>except AttributeError:<EOL><INDENT>return <NUM_LIT:0><EOL><DEDENT>
+5	return self._get('<STR_LIT>')<EOL>
+6	return b"<STR_LIT>"<EOL>
+7	if not isinstance(other, str):<EOL><INDENT>raise TypeError("<STR_LIT>")<EOL><DEDENT>self.value = other.value<EOL>
+8	p[<NUM_LIT:0>] = p[<NUM_LIT:1>]<EOL>
+9	raise NotImplementedError()<EOL>

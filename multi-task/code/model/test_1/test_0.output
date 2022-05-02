@@ -1,0 +1,10 @@
+0	p[<NUM_LIT:0>] = p[<NUM_LIT:1>]<EOL>
+1	if depth == <NUM_LIT:0>:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if depth == <NUM_LIT:0>:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if depth == <NUM_LIT:0>:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if depth == <NUM_LIT:0>:<EOL><
+2	pass<EOL>
+3	raise NotImplementedError()<EOL>
+4	
+5	
+6	
+7	
+8	raise NotImplementedError<EOL>
+9	raise NotImplementedError('<STR_LIT>')<EOL>

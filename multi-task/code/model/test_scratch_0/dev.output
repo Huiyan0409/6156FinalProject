@@ -1,0 +1,10 @@
+1	
+0	if not os.path.isfile(path):<EOL><INDENT>raise ValueError("<STR_LIT>".format(path))<EOL><DEDENT>
+4	with open(path, '<STR_LIT:r>') as f:<EOL><INDENT>return f.read()<EOL><DEDENT>
+9	pass<EOL>
+6	try:<EOL><INDENT>return int(value)<EOL><DEDENT>except ValueError:<EOL><INDENT>return <NUM_LIT:0><EOL><DEDENT>
+5	return False<EOL>
+8	return False<EOL>
+2	return json.dumps(self._to_dict(), indent=<NUM_LIT:2>)<EOL>
+3	raise NotImplementedError<EOL>
+7	if value is not None:<EOL><INDENT>assert type(value) is list, "<STR_LIT>".format("<STR_LIT>", value)<EOL><DEDENT>

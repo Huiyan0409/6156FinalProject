@@ -1,0 +1,10 @@
+0	
+1	if not isinstance(start_node, int):<EOL><INDENT>raise TypeError('<STR_LIT>')<EOL><DEDENT>if not isinstance(start_node, list):<EOL><INDENT>raise TypeError('<STR_LIT>'<EOL>'<STR_LIT>')<EOL><DEDENT>if not isinstance(start_node, (list, tuple)):<EOL><INDENT>raise TypeError('<STR_LIT>')<EOL><DEDENT
+2	try:<EOL><INDENT>response = requests.get(<EOL>'<STR_LIT>',<EOL>'<STR_LIT>',<EOL>'<STR_LIT>',<EOL>'<STR_LIT>',<EOL>'<STR_LIT>',<EOL>'<STR_LIT>',<EOL>'<STR_LIT>',<EOL>'<STR_LIT>',<EOL>'<STR_LIT>',<EOL
+3	raise NotImplementedError()<EOL>
+4	
+5	
+6	if x is None:<EOL><INDENT>x = x<EOL><DEDENT>else:<EOL><INDENT>x = x<EOL><DEDENT>if x is None:<EOL><INDENT>x = x<EOL><DEDENT>else:<EOL><INDENT>x = x<EOL><DEDENT>return x<EOL>
+7	
+8	return self._rectangles<EOL>
+9	raise NotImplementedError()<EOL>

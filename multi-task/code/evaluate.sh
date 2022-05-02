@@ -1,0 +1,1 @@
+python ../evaluator/evaluator.py model/test/test_1.gold < model/test/test_1.output

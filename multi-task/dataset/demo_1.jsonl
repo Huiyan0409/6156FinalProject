@@ -1,0 +1,1 @@
+{"signature": "def get_frame(self):", "body": "return self.legendPatch<EOL>", "docstring": "return the Rectangle instance used to frame the legend", "id": "f17172:c0:m12"}

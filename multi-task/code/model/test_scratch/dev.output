@@ -1,0 +1,10 @@
+1	if not isinstance(nodes, list):<EOL><INDENT>raise TypeError('<STR_LIT>')<EOL><DEDENT>if not isinstance(nodes, list):<EOL><INDENT>raise TypeError('<STR_LIT>')<EOL><DEDENT>if not isinstance(nodes, list):<EOL><INDENT>raise TypeError('<STR_LIT>')<EOL><DEDENT>if not isinstance(nodes, list):<EOL><INDENT>raise
+0	p[<NUM_LIT:0>] = "<STR_LIT>"<EOL>
+4	try:<EOL><INDENT>return<EOL><DEDENT>except AttributeError:<EOL><INDENT>time = time.time()<EOL>time.sleep(<NUM_LIT:1>)<EOL><DEDENT>
+9	pass<EOL>
+6	return v<EOL>
+5	return self._get('<STR_LIT>')<EOL>
+8	p[<NUM_LIT:0>] = p[<NUM_LIT:1>]<EOL>
+2	return self.total_response()<EOL>
+3	if not kwargs.get('<STR_LIT>', []):<EOL><INDENT>return []<EOL><DEDENT>if kwargs.get('<STR_LIT>', []):<EOL><INDENT>return []<EOL><DEDENT>if kwargs.get('<STR_LIT>', []):<EOL><INDENT>for kwargs in kwargs.get('<STR_LIT>'):<EOL><INDENT>if kwargs.get('<STR_
+7	if other.value is not None:<EOL><INDENT>return<EOL><DEDENT>self.value = other.value<EOL>self.value = value<EOL>

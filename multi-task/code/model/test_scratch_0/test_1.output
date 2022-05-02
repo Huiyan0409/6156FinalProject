@@ -1,0 +1,500 @@
+0	api_path = "<STR_LIT>"<EOL>api_path = api_path.format(id=id)<EOL>return self.call(api_path, **kwargs)<EOL>
+1	return self.__priority<EOL>
+2	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", self.config.subscription_id, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<
+3	kwargs['<STR_LIT>'] = True<EOL>if kwargs.get('<STR_LIT>'):<EOL><INDENT>return self.delete_with_http_info(id, **kwargs)<EOL><DEDENT>else:<EOL><INDENT>(data) = self.delete_with_http_info(id, **kwargs)<EOL>return data<EOL><DEDENT>
+4	url = '<STR_LIT>'<EOL>params = {<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_L
+5	if self.closed:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>self.stream.close()<EOL>
+6	return self.__tag<EOL>
+7	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+8	if '<STR_LIT>' in kwargs:<EOL><INDENT>kwargs['<STR_LIT>'] = kwargs.pop('<STR_LIT>')<EOL><DEDENT>return kwargs<EOL>
+9	api_path = "<STR_LIT>"<EOL>return self.call(api_path, **kwargs)<EOL>
+10	pass<EOL>
+11	return self._filename<EOL>
+12	if '<STR_LIT>' not in kwargs:<EOL><INDENT>kwargs['<STR_LIT>'] = self.kwargs['<STR_LIT>']<EOL><DEDENT>if '<STR_LIT>' not in kwargs:<EOL><INDENT>kwargs['<STR_LIT>'] = self.kwargs['<STR_LIT>']<EOL><DEDENT>if '<STR_LIT>' in kwargs:<EOL><INDENT
+13	api_path = "<STR_LIT>"<EOL>api_path = api_path.format(id=id)<EOL>return self.call(api_path, **kwargs)<EOL>
+14	if not value:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if value < <NUM_LIT:0>:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if value < <NUM_LIT:0>:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if value < <NUM_LIT:0>:<EOL><INDENT>raise ValueError("
+15	with open(path, '<STR_LIT:r>') as f:<EOL><INDENT>return f.read()<EOL><DEDENT>
+16	self.node.set('<STR_LIT>', name)<EOL>
+17	if os.path.isfile(file_path):<EOL><INDENT>with open(file_path, '<STR_LIT:r>') as f:<EOL><INDENT>f.write(f)<EOL><DEDENT><DEDENT>
+18	params = {<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL
+19	kwargs['<STR_LIT>'] = True<EOL>if kwargs.get('<STR_LIT>'):<EOL><INDENT>return self.get_api_resources_with_http_info(**kwargs)  <EOL><DEDENT>else:<EOL><INDENT>(data) = self.get_api_resources_with_http_info(**kwargs)  <EOL>return data<EOL><DEDENT>
+20	route_values = {}<EOL>if project is not None:<EOL><INDENT>route_values['<STR_LIT>'] = self._serialize.url('<STR_LIT>', project, '<STR_LIT:str>')<EOL><DEDENT>if project is not None:<EOL><INDENT>route_values['<STR_LIT>'] = self._serialize.url('<STR_LIT>', project, '<STR_LIT:str>')<EOL><DEDENT
+21	kwargs['<STR_LIT>'] = True<EOL>if kwargs.get('<STR_LIT>'):<EOL><INDENT>return self.get_api_resources_with_http_info(**kwargs)  <EOL><DEDENT>else:<EOL><INDENT>(data) = self.get_api_resources_with_http_info(**kwargs)  <EOL>return data<EOL><DEDENT>
+22	return self.__route_map<EOL>
+23	return '<STR_LIT>'<EOL>
+24	return self.__config<EOL>
+25	context.set_code(grpc.StatusCode.UNIMPLEMENTED)<EOL>context.set_details("<STR_LIT>")<EOL>raise NotImplementedError("<STR_LIT>")<EOL>
+26	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+27	return self.__priority<EOL>
+28	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", self.config.subscription_id, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<
+29	if pieces["<STR_LIT>"]:<EOL><INDENT>rendered = pieces["<STR_LIT>"]<EOL>if pieces["<STR_LIT>"] or pieces["<STR_LIT>"]:<EOL><INDENT>rendered += "<STR_LIT>" % pieces["<STR_LIT>"]<EOL>if pieces["<STR_LIT>"]:<EOL><INDENT>rendered += "<STR_LIT>"<EOL><DEDENT><DEDENT><DEDENT>else:<E
+30	return {<EOL>'<STR_LIT:text>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<E
+31	return json.dumps(self._to_dict(), indent=<NUM_LIT:2>)<EOL>
+32	return self.__priority<EOL>
+33	if '<STR_LIT>' in kwargs:<EOL><INDENT>kwargs['<STR_LIT>'] = kwargs.get('<STR_LIT>')<EOL><DEDENT>return kwargs<EOL>
+34	with open(path, '<STR_LIT:r>') as f:<EOL><INDENT>return f.read()<EOL><DEDENT>
+35	pass<EOL>
+36	return self.__description<EOL>
+37	with open(path, '<STR_LIT:r>') as f:<EOL><INDENT>return f.read()<EOL><DEDENT>
+38	raise NotImplementedError<EOL>
+39	pass<EOL>
+40	return self.__ipv6_address<EOL>
+41	try:<EOL><INDENT>return x<EOL><DEDENT>except AttributeError:<EOL><INDENT>return x<EOL><DEDENT>
+42	<EOL>if self.shape[<NUM_LIT:0>] < <NUM_LIT:1>:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if self.shape[<NUM_LIT:0>] > <NUM_LIT:1>:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if self.shape[<NUM_LIT:0>] < <NUM_LIT:1>:<EOL><
+43	return self._url<EOL>
+44	if value is None:<EOL><INDENT>return '<STR_LIT>'<EOL><DEDENT>if value is None:<EOL><INDENT>raise ValueError('<STR_LIT>')<EOL><DEDENT>if value is None:<EOL><INDENT>raise ValueError('<STR_LIT>')<EOL><DEDENT>if len(value) > <NUM_LIT:0>:<EOL><INDENT>raise ValueError('<STR_LIT>')<EOL
+45	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+46	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+47	return self.__lsp_address<EOL>
+48	return self.__sec_path<EOL>
+49	p[<NUM_LIT:0>] = p[<NUM_LIT:1>]<EOL>
+50	
+51	return self.__lsp_admin_group<EOL>
+52	if '<STR_LIT>' in kwargs:<EOL><INDENT>kwargs['<STR_LIT>'] = kwargs.get('<STR_LIT>')<EOL><DEDENT>return kwargs<EOL>
+53	pass<EOL>
+54	raise NotImplementedError<EOL>
+55	return self.__mac<EOL>
+56	if url is None:<EOL><INDENT>url = "<STR_LIT>"<EOL><DEDENT>return url<EOL>
+57	api_path = "<STR_LIT>"<EOL>return self.call(api_path, **kwargs)<EOL>
+58	route_values = {}<EOL>if project is not None:<EOL><INDENT>route_values['<STR_LIT>'] = self._serialize.url('<STR_LIT>', project, '<STR_LIT:str>')<EOL><DEDENT>if project is not None:<EOL><INDENT>route_values['<STR_LIT>'] = self._serialize.url('<STR_LIT>', project, '<STR_LIT:str>')<EOL><DEDENT
+59	api_path = "<STR_LIT>"<EOL>api_path = api_path.format(id=id)<EOL>return self.call(api_path, **kwargs)<EOL>
+60	raise NotImplementedError<EOL>
+61	api_path = "<STR_LIT>"<EOL>return self.call(api_path, **kwargs)<EOL>
+62	if '<STR_LIT>' in kwargs:<EOL><INDENT>kwargs['<STR_LIT>'] = kwargs.get('<STR_LIT>')<EOL><DEDENT>return kwargs<EOL>
+63	with open(self._path, '<STR_LIT:r>') as f:<EOL><INDENT>return f.read()<EOL><DEDENT>
+64	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+65	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", self.config.subscription_id, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<
+66	return self.__vlan_type<EOL>
+67	return self.__vlan_type<EOL>
+68	<EOL>if len(s) > <NUM_LIT:1>:<EOL><INDENT>s = '<STR_LIT>'<EOL><DEDENT>else:<EOL><INDENT>s = '<STR_LIT>'<EOL><DEDENT>s += '<STR_LIT>'<EOL>s += '<STR_LIT>'<EOL>s += '<STR_LIT>'<EOL>s += '<STR_LIT>'<EOL>
+69	if '<STR_LIT>' in kwargs:<EOL><INDENT>kwargs['<STR_LIT>'] = kwargs.get('<STR_LIT>')<EOL><DEDENT>if '<STR_LIT>' not in kwargs:<EOL><INDENT>kwargs['<STR_LIT>'] = kwargs.get('<STR_LIT>')<EOL><DEDENT>kwargs['<STR_LIT>'] = kwargs.get('<STR
+70	try:<EOL><INDENT>data = self.read_data()<EOL><DEDENT>except ValueError:<EOL><INDENT>data = self.read_data()<EOL><DEDENT>else:<EOL><INDENT>data = self.read_data()<EOL><DEDENT>return data<EOL>
+71	raise NotImplementedError<EOL>
+72	return []<EOL>
+73	return self.__config<EOL>
+74	return self.__priority<EOL>
+75	with open(path, '<STR_LIT:r>') as f:<EOL><INDENT>return f.read()<EOL><DEDENT>
+76	return {<EOL>'<STR_LIT>': {<EOL>'<STR_LIT>': []<EOL>}<EOL>
+77	print('<STR_LIT>'.format(s))<EOL>
+78	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+79	raise NotImplementedError<EOL>
+80	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+81	p[<NUM_LIT:0>] = p[<NUM_LIT:1>]<EOL>
+82	api_path = "<STR_LIT>"<EOL>api_path = api_path.format(id=id)<EOL>return self.call(api_path, **kwargs)<EOL>
+83	return self.__vlan<EOL>
+84	raise NotImplementedError<EOL>
+85	kwargs['<STR_LIT>'] = True<EOL>if kwargs.get('<STR_LIT>'):<EOL><INDENT>return self.get_api_with_http_info(**kwargs)<EOL><DEDENT>else:<EOL><INDENT>(data) = self.get_api_with_http_info(**kwargs)<EOL>return data<EOL><DEDENT>
+86	api_path = "<STR_LIT>"<EOL>api_path = api_path.format(id=id)<EOL>return self.call(api_path, **kwargs)<EOL>
+87	pass<EOL>
+88	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", self.config.subscription_id, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<
+89	<EOL>if not hasattr(self, '<STR_LIT>'):<EOL><INDENT>raise ValueError('<STR_LIT>')<EOL><DEDENT>if not hasattr(self, '<STR_LIT>'):<EOL><INDENT>raise ValueError('<STR_LIT>')<EOL><DEDENT>if not hasattr(self, '<STR_LIT>'):<EOL><INDENT>raise ValueError('<STR_LIT>')<EOL><
+90	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+91	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+92	
+93	if value is None:<EOL><INDENT>return None<EOL><DEDENT>else:<EOL><INDENT>return value<EOL><DEDENT>
+94	return []<EOL>
+95	try:<EOL><INDENT>LOGGER.debug("<STR_LIT>")<EOL>return True<EOL><DEDENT>except Exception as e:<EOL><INDENT>logger.debug("<STR_LIT>")<EOL>return False<EOL><DEDENT>
+96	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+97	raise NotImplementedError<EOL>
+98	
+99	p[<NUM_LIT:0>] = p[<NUM_LIT:1>]<EOL>p.set_lineno(<NUM_LIT:0>, p.lineno(<NUM_LIT:1>))<EOL>
+100	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", self.config.subscription_id, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<
+101	if '<STR_LIT>' in kwargs:<EOL><INDENT>kwargs['<STR_LIT>'] = kwargs.get('<STR_LIT>')<EOL><DEDENT>return kwargs<EOL>
+102	raise NotImplementedError<EOL>
+103	p[<NUM_LIT:0>] = p[<NUM_LIT:1>]<EOL>
+104	return self.__config<EOL>
+105	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+106	
+107	return self._data<EOL>
+108	url = '<STR_LIT>'<EOL>headers = {<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_L
+109	p[<NUM_LIT:0>] = p[<NUM_LIT:1>]<EOL>
+110	api_path = "<STR_LIT>"<EOL>return self.call(api_path, **kwargs)<EOL>
+111	route_values = {}<EOL>if project is not None:<EOL><INDENT>route_values['<STR_LIT>'] = self._serialize.url('<STR_LIT>', project, '<STR_LIT:str>')<EOL><DEDENT>if project is not None:<EOL><INDENT>route_values['<STR_LIT>'] = self._serialize.url('<STR_LIT>', project, '<STR_LIT:str>')<EOL><DEDENT
+112	kwargs['<STR_LIT>'] = True<EOL>if kwargs.get('<STR_LIT>'):<EOL><INDENT>return self.get_api_with_http_info(**kwargs)<EOL><DEDENT>else:<EOL><INDENT>(data) = self.get_api_with_http_info(**kwargs)<EOL>return data<EOL><DEDENT>
+113	return self.__default_priority<EOL>
+114	return self.__interval<EOL>
+115	
+116	api_path = "<STR_LIT>"<EOL>api_path = api_path.format(id=id)<EOL>return self.call(api_path, **kwargs)<EOL>
+117	try:<EOL><INDENT>import matplotlib.pyplot as plt<EOL><DEDENT>except ImportError:<EOL><INDENT>raise ImportError("<STR_LIT>"<EOL>"<STR_LIT>"<EOL>"<STR_LIT>"<EOL>"<STR_LIT>"<EOL>"<STR_LIT>"<EOL>"<STR_LIT>"<EOL>"<STR_LIT>"<EOL>"<STR_LIT>"<EOL>"<STR_L
+118	if value is None:<EOL><INDENT>return '<STR_LIT>'<EOL><DEDENT>if value is None:<EOL><INDENT>return '<STR_LIT>'<EOL><DEDENT>if value is None:<EOL><INDENT>return '<STR_LIT>'<EOL><DEDENT>return '<STR_LIT>'<EOL>
+119	return self.__rate<EOL>
+120	<EOL>if self.shape[<NUM_LIT:0>] == <NUM_LIT:1>:<EOL><INDENT>return self.shape[<NUM_LIT:1>]<EOL><DEDENT>else:<EOL><INDENT>return self.shape[<NUM_LIT:0>]<EOL><DEDENT>
+121	api_path = "<STR_LIT>"<EOL>api_path = api_path.format(id=id)<EOL>return self.call(api_path, **kwargs)<EOL>
+122	with open(path, '<STR_LIT:r>') as f:<EOL><INDENT>return f.read()<EOL><DEDENT>
+123	
+124	pass<EOL>
+125	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", self.config.subscription_id, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<
+126	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", self.config.subscription_id, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<
+127	return self.__suppress_map<EOL>
+128	if not os.path.exists(path):<EOL><INDENT>raise ValueError("<STR_LIT>".format(path))<EOL><DEDENT>if not os.path.exists(path):<EOL><INDENT>raise ValueError("<STR_LIT>".format(path))<EOL><DEDENT>if not os.path.exists(path):<EOL><INDENT>raise ValueError("<STR_LIT>".format(path))<EOL><DEDENT>if not os
+129	query_params = {<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<
+130	data = {<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL
+131	return self.name<EOL>
+132	return {<EOL>'<STR_LIT:type>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<E
+133	try:<EOL><INDENT>return len(self)<EOL><DEDENT>except ValueError:<EOL><INDENT>return <NUM_LIT:0><EOL><DEDENT>
+134	<EOL>if not hasattr(self, '<STR_LIT>'):<EOL><INDENT>raise TypeError('<STR_LIT>')<EOL><DEDENT>if not hasattr(self, '<STR_LIT>'):<EOL><INDENT>raise TypeError('<STR_LIT>')<EOL><DEDENT>if not hasattr(self, '<STR_LIT>'):<EOL><INDENT>raise TypeError('<STR_LIT>')<EOL><
+135	raise NotImplementedError<EOL>
+136	context.set_code(grpc.StatusCode.UNIMPLEMENTED)<EOL>context.set_details("<STR_LIT>")<EOL>raise NotImplementedError("<STR_LIT>")<EOL>
+137	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+138	return self.__mac_address<EOL>
+139	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", self.config.subscription_id, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<
+140	if '<STR_LIT>' in kwargs:<EOL><INDENT>kwargs['<STR_LIT>'] = kwargs.get('<STR_LIT>')<EOL><DEDENT>if '<STR_LIT>' in kwargs:<EOL><INDENT>kwargs['<STR_LIT>'] = kwargs.get('<STR_LIT>')<EOL><DEDENT>if '<STR_LIT>' in kwargs:<EOL><INDENT
+141	cmd = ['<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>']<EOL>cmd.extend(['<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR_LIT>', '<STR
+142	context.set_code(grpc.StatusCode.UNIMPLEMENTED)<EOL>context.set_details("<STR_LIT>")<EOL>raise NotImplementedError("<STR_LIT>")<EOL>
+143	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", self.config.subscription_id, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<
+144	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", self.config.subscription_id, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_name, '<STR_LIT:str>'),<EOL>'<STR_
+145	api_path = "<STR_LIT>"<EOL>api_path = api_path.format(id=id)<EOL>return self.call(api_path, **kwargs)<EOL>
+146	return self.__default_route_map<EOL>
+147	if value is None:<EOL><INDENT>return None<EOL><DEDENT>else:<EOL><INDENT>return value<EOL><DEDENT>
+148	raise NotImplementedError<EOL>
+149	pass<EOL>
+150	with open(path, '<STR_LIT:r>') as f:<EOL><INDENT>return f.read()<EOL><DEDENT>
+151	return self.__priority<EOL>
+152	
+153	raise NotImplementedError<EOL>
+154	if len(args) == <NUM_LIT:1>:<EOL><INDENT>args = args[<NUM_LIT:0>]<EOL><DEDENT>elif len(args) == <NUM_LIT:1>:<EOL><INDENT>args[<NUM_LIT:0>] = args[<NUM_LIT:1>]<EOL><DEDENT>else:<EOL><INDENT>args[<NUM_LIT:0>] = args[<NUM_LIT:1>]<EOL><
+155	<EOL>if not hasattr(other, '<STR_LIT>'):<EOL><INDENT>other = other.__new__(other)<EOL><DEDENT>else:<EOL><INDENT>other = other.__new__(other)<EOL><DEDENT>return other<EOL>
+156	
+157	<EOL>data = data.get('<STR_LIT>')<EOL>if data is None:<EOL><INDENT>data = data.get('<STR_LIT:data>')<EOL><DEDENT>else:<EOL><INDENT>data = data.get('<STR_LIT:data>')<EOL><DEDENT>data = data.get('<STR_LIT:data>')<EOL>data = data.get('<STR_LIT:data>')<EOL>
+158	
+159	route_values = {}<EOL>if project is not None:<EOL><INDENT>route_values['<STR_LIT>'] = self._serialize.url('<STR_LIT>', project, '<STR_LIT:str>')<EOL><DEDENT>if project is not None:<EOL><INDENT>route_values['<STR_LIT>'] = self._serialize.url('<STR_LIT>', project, '<STR_LIT:str>')<EOL><DEDENT
+160	if isinstance(obj, str):<EOL><INDENT>obj = obj.encode('<STR_LIT:utf-8>')<EOL><DEDENT>elif isinstance(obj, str):<EOL><INDENT>obj = obj.encode('<STR_LIT:utf-8>')<EOL><DEDENT>elif isinstance(obj, str):<EOL><INDENT>obj = obj.encode('<STR_LIT:utf-8>')<EOL><DEDENT>el
+161	raise NotImplementedError<EOL>
+162	return self.__priority<EOL>
+163	<EOL>self.x = x<EOL>self.x = x<EOL>self.x = x<EOL>self.r = r<EOL>self.r = r<EOL>self.r = r<EOL>self.r = r<EOL>self.r = r<EOL>self.r = r<EOL>self.r = r<EOL>self.r = r<EOL>self.r = r<EOL>self.r = r<EOL>self.r = r
+164	raise NotImplementedError<EOL>
+165	<EOL>if len(shape) == <NUM_LIT:2>:<EOL><INDENT>shape = np.array(shape)<EOL><DEDENT>elif len(shape) == <NUM_LIT:2>:<EOL><INDENT>shape = np.array(shape)<EOL><DEDENT>elif len(shape) == <NUM_LIT:2>:<EOL><INDENT>shape = np.array(shape)<EOL><DEDENT>else:<EOL><INDENT>
+166	return self<EOL>
+167	p[<NUM_LIT:0>] = p[<NUM_LIT:1>]<EOL>
+168	print('<STR_LIT>'.format(s))<EOL>
+169	if not os.path.isfile(path):<EOL><INDENT>raise ValueError("<STR_LIT>".format(path))<EOL><DEDENT>if not os.path.exists(path):<EOL><INDENT>raise ValueError("<STR_LIT>".format(path))<EOL><DEDENT>if not os.path.exists(path):<EOL><INDENT>os.makedirs(path)<EOL><DEDENT>os.makedirs(path)<E
+170	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+171	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+172	
+173	raise NotImplementedError<EOL>
+174	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+175	<EOL>if not isinstance(np.ndarray, np.ndarray):<EOL><INDENT>raise TypeError('<STR_LIT>')<EOL><DEDENT>if len(np.ndarray) == <NUM_LIT:0>:<EOL><INDENT>raise ValueError('<STR_LIT>')<EOL><DEDENT>if len(np.ndarray) == <NUM_LIT:0>:<EOL><INDENT>raise ValueError('<STR_LIT>')<EOL
+176	return datetime.datetime.utcnow()<EOL>
+177	raise NotImplementedError()<EOL>
+178	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+179	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", self.config.subscription_id, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<
+180	return True<EOL>
+181	try:<EOL><INDENT>return getattr(settings, "<STR_LIT>", None)<EOL><DEDENT>except AttributeError:<EOL><INDENT>return getattr(settings, "<STR_LIT>", None)<EOL><DEDENT>
+182	return self.__priority<EOL>
+183	if '<STR_LIT>' in kwargs:<EOL><INDENT>kwargs['<STR_LIT>'] = kwargs.pop('<STR_LIT>')<EOL><DEDENT>if '<STR_LIT>' in kwargs:<EOL><INDENT>kwargs['<STR_LIT>'] = kwargs.pop('<STR_LIT>')<EOL><DEDENT>if '<STR_LIT>' in kwargs:<EOL><INDENT
+184	p[<NUM_LIT:0>] = p[<NUM_LIT:1>]<EOL>
+185	route_values = {}<EOL>if project is not None:<EOL><INDENT>route_values['<STR_LIT>'] = self._serialize.url('<STR_LIT>', project, '<STR_LIT:str>')<EOL><DEDENT>if project is not None:<EOL><INDENT>route_values['<STR_LIT>'] = self._serialize.url('<STR_LIT>', project, '<STR_LIT:str>')<EOL><DEDENT
+186	raise NotImplementedError<EOL>
+187	print('<STR_LIT>'.format(s))<EOL>
+188	raise NotImplementedError<EOL>
+189	return json.dumps(self._to_dict(), indent=<NUM_LIT:2>)<EOL>
+190	p[<NUM_LIT:0>] = p[<NUM_LIT:1>]<EOL>p.set_lineno(<NUM_LIT:0>, p.lineno(<NUM_LIT:1>))<EOL>
+191	return self.__output<EOL>
+192	return self.__lsp_admin_group<EOL>
+193	api_path = "<STR_LIT>"<EOL>api_path = api_path.format(id=id)<EOL>return self.call(api_path, **kwargs)<EOL>
+194	if isinstance(text, str):<EOL><INDENT>text = text.encode('<STR_LIT:utf-8>')<EOL><DEDENT>return text<EOL>
+195	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+196	return value<EOL>
+197	return False<EOL>
+198	with open(path, '<STR_LIT:r>') as f:<EOL><INDENT>return f.read()<EOL><DEDENT>
+199	p[<NUM_LIT:0>] = p[<NUM_LIT:1>]<EOL>
+200	url = '<STR_LIT>'<EOL>params = {<EOL>'<STR_LIT:id>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR
+201	raise NotImplementedError<EOL>
+202	raise NotImplementedError<EOL>
+203	if isinstance(x, np.ndarray):<EOL><INDENT>return x<EOL><DEDENT>else:<EOL><INDENT>return x<EOL><DEDENT>
+204	self.logger.warn("<STR_LIT>")<EOL>self._id = value<EOL>
+205	route_values = {}<EOL>if project is not None:<EOL><INDENT>route_values['<STR_LIT>'] = self._serialize.url('<STR_LIT>', project, '<STR_LIT:str>')<EOL><DEDENT>response = self._send(http_method='<STR_LIT:GET>',<EOL>location_id='<STR_LIT>',<EOL>version='<STR_LIT>',<EOL>route_values=route_values
+206	raise NotImplementedError<EOL>
+207	if '<STR_LIT>' in kwargs:<EOL><INDENT>kwargs['<STR_LIT>'] = kwargs.get('<STR_LIT>')<EOL><DEDENT>return kwargs<EOL>
+208	return self.__extended<EOL>
+209	
+210	return self.__dict__ == other.__dict__<EOL>
+211	raise NotImplementedError('<STR_LIT>')<EOL>
+212	if x == <NUM_LIT:0>:<EOL><INDENT>return x<EOL><DEDENT>elif x == <NUM_LIT:0>:<EOL><INDENT>return x<EOL><DEDENT>elif x == <NUM_LIT:0>:<EOL><INDENT>return x<EOL><DEDENT>else:<EOL><INDENT>return x<EOL><DEDENT>
+213	return self.__hold_time<EOL>
+214	return self._distance<EOL>
+215	pass<EOL>
+216	raise NotImplementedError<EOL>
+217	raise NotImplementedError<EOL>
+218	raise NotImplementedError<EOL>
+219	return self.__lsp_admin_group<EOL>
+220	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", self.config.subscription_id, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<
+221	def decorator(f):<EOL><INDENT>"""<STR_LIT>"""<EOL>return f<EOL><DEDENT>return decorator<EOL>
+222	
+223	route_values = {}<EOL>if project is not None:<EOL><INDENT>route_values['<STR_LIT>'] = self._serialize.url('<STR_LIT>', project, '<STR_LIT:str>')<EOL><DEDENT>if project is not None:<EOL><INDENT>route_values['<STR_LIT>'] = self._serialize.url('<STR_LIT>', project, '<STR_LIT:str>')<EOL><DEDENT
+224	raise NotImplementedError<EOL>
+225	api_path = "<STR_LIT>"<EOL>api_path = api_path.format(id=id)<EOL>return self.call(api_path, **kwargs)<EOL>
+226	route_values = {}<EOL>if project is not None:<EOL><INDENT>route_values['<STR_LIT>'] = self._serialize.url('<STR_LIT>', project, '<STR_LIT:str>')<EOL><DEDENT>if project is not None:<EOL><INDENT>route_values['<STR_LIT>'] = self._serialize.url('<STR_LIT>', project, '<STR_LIT:str>')<EOL><DEDENT
+227	if not isinstance(other, dict):<EOL><INDENT>raise TypeError('<STR_LIT>')<EOL><DEDENT>if not isinstance(other, dict):<EOL><INDENT>raise TypeError('<STR_LIT>')<EOL><DEDENT>if not isinstance(other, dict):<EOL><INDENT>raise TypeError('<STR_LIT>')<EOL><DEDENT>if not isinstance(other, dict):<EOL><INDENT>raise TypeError('<
+228	return self.__priority_id<EOL>
+229	raise NotImplementedError<EOL>
+230	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", self.config.subscription_id, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<
+231	raise NotImplementedError<EOL>
+232	kwargs['<STR_LIT>'] = True<EOL>if kwargs.get('<STR_LIT>'):<EOL><INDENT>return self.get_api_resources_with_http_info(**kwargs)  <EOL><DEDENT>else:<EOL><INDENT>(data) = self.get_api_resources_with_http_info(**kwargs)  <EOL>return data<EOL><DEDENT>
+233	p[<NUM_LIT:0>] = p[<NUM_LIT:1>]<EOL>
+234	return self.__redistribute<EOL>
+235	return self.__cwdl_status<EOL>
+236	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+237	raise NotImplementedError<EOL>
+238	kwargs['<STR_LIT>'] = True<EOL>if kwargs.get('<STR_LIT>'):<EOL><INDENT>return self.get_api_resources_with_http_info(**kwargs)  <EOL><DEDENT>else:<EOL><INDENT>(data) = self.get_api_resources_with_http_info(**kwargs)  <EOL>return data<EOL><DEDENT>
+239	
+240	raise NotImplementedError<EOL>
+241	route_values = {}<EOL>if project is not None:<EOL><INDENT>route_values['<STR_LIT>'] = self._serialize.url('<STR_LIT>', project, '<STR_LIT:str>')<EOL><DEDENT>if project is not None:<EOL><INDENT>route_values['<STR_LIT>'] = self._serialize.url('<STR_LIT>', project, '<STR_LIT:str>')<EOL><DEDENT
+242	
+243	raise NotImplementedError<EOL>
+244	raise NotImplementedError<EOL>
+245	super().__init__(**kwargs)<EOL>if len(kwargs) == <NUM_LIT:0>:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if len(kwargs) == <NUM_LIT:0>:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if len(kwargs) == <NUM_LIT:0>:<EOL><INDENT>raise ValueError("<STR_L
+246	try:<EOL><INDENT>data = json.loads(s)<EOL><DEDENT>except ValueError:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>return data<EOL>
+247	raise NotImplementedError<EOL>
+248	return self.__priority<EOL>
+249	if '<STR_LIT>' in kwargs:<EOL><INDENT>kwargs['<STR_LIT>'] = kwargs.pop('<STR_LIT>')<EOL><DEDENT>else:<EOL><INDENT>kwargs['<STR_LIT>'] = kwargs.pop('<STR_LIT>')<EOL><DEDENT>if '<STR_LIT>' in kwargs:<EOL><INDENT>kwargs['<STR_LIT>'] =
+250	try:<EOL><INDENT>return '<STR_LIT>'<EOL><DEDENT>except KeyError:<EOL><INDENT>return '<STR_LIT>'<EOL><DEDENT>
+251	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", self.config.subscription_id, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<
+252	with open(path, '<STR_LIT:r>') as f:<EOL><INDENT>return f.read()<EOL><DEDENT>
+253	return self.__vlan<EOL>
+254	if '<STR_LIT>' in kwargs:<EOL><INDENT>kwargs['<STR_LIT>'] = kwargs.get('<STR_LIT>')<EOL><DEDENT>else:<EOL><INDENT>kwargs['<STR_LIT>'] = kwargs.get('<STR_LIT>')<EOL><DEDENT>if '<STR_LIT>' in kwargs:<EOL><INDENT>kwargs['<STR_LIT>'] =
+255	api_path = "<STR_LIT>"<EOL>return self.call(api_path, **kwargs)<EOL>
+256	pass<EOL>
+257	<EOL>params = {<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>
+258	try:<EOL><INDENT>return iter(iter(self))<EOL><DEDENT>except TypeError:<EOL><INDENT>return False<EOL><DEDENT>
+259	pass<EOL>
+260	pass<EOL>
+261	api_version = self._get_api_version('<STR_LIT>')<EOL>if api_version == '<STR_LIT>':<EOL><INDENT>api_version = '<STR_LIT>'<EOL><DEDENT>else:<EOL><INDENT>api_version = '<STR_LIT>'<EOL><DEDENT>if api_version == '<STR_LIT>':<EOL><INDENT>api_version = '<STR_LIT>'<E
+262	with open(filename, '<STR_LIT:r>') as f:<EOL><INDENT>return f.read()<EOL><DEDENT>
+263	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+264	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", self.config.subscription_id, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<
+265	if '<STR_LIT>' in name:<EOL><INDENT>return name<EOL><DEDENT>else:<EOL><INDENT>return name<EOL><DEDENT>
+266	p[<NUM_LIT:0>] = p[<NUM_LIT:1>]<EOL>
+267	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+268	route_values = {}<EOL>if project is not None:<EOL><INDENT>route_values['<STR_LIT>'] = self._serialize.url('<STR_LIT>', project, '<STR_LIT:str>')<EOL><DEDENT>if project is not None:<EOL><INDENT>route_values['<STR_LIT>'] = self._serialize.url('<STR_LIT>', project, '<STR_LIT:str>')<EOL><DEDENT
+269	with open(filename, '<STR_LIT:r>') as f:<EOL><INDENT>return f.read()<EOL><DEDENT>
+270	return self.__bgp_priority<EOL>
+271	<EOL>if '<STR_LIT>' in config:<EOL><INDENT>config = config['<STR_LIT>']<EOL><DEDENT>else:<EOL><INDENT>config = config['<STR_LIT>']<EOL><DEDENT>if '<STR_LIT>' in config:<EOL><INDENT>config = config['<STR_LIT>']<EOL><DEDENT>else:<EOL><INDENT>config = config['<STR_LIT
+272	return '<STR_LIT>'<EOL>
+273	return self.__route_map<EOL>
+274	all_params = ['<STR_LIT>']<EOL>all_params.append('<STR_LIT>')<EOL>params = locals()<EOL>for key, val in six.iteritems(params['<STR_LIT>']):<EOL><INDENT>if key not in all_params:<EOL><INDENT>raise TypeError(<EOL>"<STR_LIT>"<EOL>"<STR_LIT>" % key<EOL>)<EOL><DEDENT>params[key] =
+275	return self.__output<EOL>
+276	all_params = ['<STR_LIT>', '<STR_LIT:body>']<EOL>all_params.append('<STR_LIT>')<EOL>params = locals()<EOL>for key, val in iteritems(params['<STR_LIT>']):<EOL><INDENT>if key not in all_params:<EOL><INDENT>raise TypeError(<EOL>"<STR_LIT>"<EOL>"<STR_LIT>" % key<EOL>)<EOL><D
+277	
+278	kwargs['<STR_LIT>'] = True<EOL>if kwargs.get('<STR_LIT>'):<EOL><INDENT>return self.get_api_resources_with_http_info(**kwargs)  <EOL><DEDENT>else:<EOL><INDENT>(data) = self.get_api_resources_with_http_info(**kwargs)  <EOL>return data<EOL><DEDENT>
+279	url = '<STR_LIT>'<EOL>params = {<EOL>'<STR_LIT:id>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR
+280	return self.__name<EOL>
+281	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", self.config.subscription_id, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<
+282	if '<STR_LIT>' in kwargs:<EOL><INDENT>kwargs['<STR_LIT>'] = kwargs.get('<STR_LIT>')<EOL><DEDENT>else:<EOL><INDENT>kwargs['<STR_LIT>'] = kwargs.get('<STR_LIT>')<EOL><DEDENT>if '<STR_LIT>' in kwargs:<EOL><INDENT>kwargs['<STR_LIT>'] =
+283	if len(args) == <NUM_LIT:1>:<EOL><INDENT>args = args[<NUM_LIT:0>]<EOL><DEDENT>elif len(args) == <NUM_LIT:1>:<EOL><INDENT>args[<NUM_LIT:0>] = args[<NUM_LIT:1>]<EOL><DEDENT>else:<EOL><INDENT>args[<NUM_LIT:0>] = args[<NUM_LIT:1>]<EOL><
+284	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+285	def decorator(func):<EOL><INDENT>"""<STR_LIT>"""<EOL>def wrapper(*args, **kwargs):<EOL><INDENT>"""<STR_LIT>"""<EOL>if kwargs is None:<EOL><INDENT>kwargs["<STR_LIT>"] = kwargs.get("<STR_LIT>")<EOL><DEDENT>else:<EOL><INDENT>kwargs["<STR_LIT>"] = kwargs.get("<
+286	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", self.config.subscription_id, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<
+287	return self<EOL>
+288	return self.__lsp_admin_group<EOL>
+289	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", self.config.subscription_id, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<
+290	return request<EOL>
+291	route_values = {}<EOL>if project is not None:<EOL><INDENT>route_values['<STR_LIT>'] = self._serialize.url('<STR_LIT>', project, '<STR_LIT:str>')<EOL><DEDENT>if project is not None:<EOL><INDENT>route_values['<STR_LIT>'] = self._serialize.url('<STR_LIT>', project, '<STR_LIT:str>')<EOL><DEDENT
+292	return self._value<EOL>
+293	print('<STR_LIT>'.format(s))<EOL>
+294	
+295	<EOL>try:<EOL><INDENT>new_index = self.index<EOL><DEDENT>except AttributeError:<EOL><INDENT>new_index = self.index<EOL><DEDENT>return new_index<EOL>
+296	
+297	
+298	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+299	return self.__vlan_type<EOL>
+300	p[<NUM_LIT:0>] = p[<NUM_LIT:1>]<EOL>p.set_lineno(<NUM_LIT:0>, p.lineno(<NUM_LIT:1>))<EOL>
+301	all_params = ['<STR_LIT>']<EOL>all_params.append('<STR_LIT>')<EOL>params = locals()<EOL>for key, val in six.iteritems(params['<STR_LIT>']):<EOL><INDENT>if key not in all_params:<EOL><INDENT>raise TypeError(<EOL>"<STR_LIT>"<EOL>"<STR_LIT>" % key<EOL>)<EOL><DEDENT>params[key] =
+302	route_values = {}<EOL>if project is not None:<EOL><INDENT>route_values['<STR_LIT>'] = self._serialize.url('<STR_LIT>', project, '<STR_LIT:str>')<EOL><DEDENT>if project is not None:<EOL><INDENT>route_values['<STR_LIT>'] = self._serialize.url('<STR_LIT>', project, '<STR_LIT:str>')<EOL><DEDENT
+303	return super().value<EOL>
+304	return self.__edge_port<EOL>
+305	kwargs['<STR_LIT>'] = True<EOL>if kwargs.get('<STR_LIT>'):<EOL><INDENT>return self.get_api_resources_with_http_info(**kwargs)  <EOL><DEDENT>else:<EOL><INDENT>(data) = self.get_api_resources_with_http_info(**kwargs)  <EOL>return data<EOL><DEDENT>
+306	def decorator(func):<EOL><INDENT>"""<STR_LIT>"""<EOL>return func(*args, **kwargs)<EOL><DEDENT>return decorator<EOL>
+307	
+308	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", self.config.subscription_id, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<
+309	if value is None:<EOL><INDENT>return None<EOL><DEDENT>return value<EOL>
+310	return self.__hold_time<EOL>
+311	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+312	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+313	
+314	return self.__prefix_list<EOL>
+315	p[<NUM_LIT:0>] = p[<NUM_LIT:1>]<EOL>
+316	p[<NUM_LIT:0>] = p[<NUM_LIT:1>]<EOL>
+317	raise NotImplementedError<EOL>
+318	if isinstance(name, str):<EOL><INDENT>name = name.encode('<STR_LIT:utf-8>')<EOL><DEDENT>elif isinstance(name, str):<EOL><INDENT>name = name.encode('<STR_LIT:utf-8>')<EOL><DEDENT>elif isinstance(name, str):<EOL><INDENT>name = name.encode('<STR_LIT:utf-8>')<EOL><DEDENT>el
+319	<EOL>if self.shape[<NUM_LIT:0>] == <NUM_LIT:1>:<EOL><INDENT>return self.shape[<NUM_LIT:1>]<EOL><DEDENT>else:<EOL><INDENT>return self.shape[<NUM_LIT:0>]<EOL><DEDENT>
+320	if value is None:<EOL><INDENT>raise TypeError("<STR_LIT>")<EOL><DEDENT>if value is None:<EOL><INDENT>raise TypeError("<STR_LIT>")<EOL><DEDENT>if value is None:<EOL><INDENT>raise TypeError("<STR_LIT>")<EOL><DEDENT>if value is None:<EOL><INDENT>raise TypeError("<STR_LIT>")<EOL><DEDENT>if value
+321	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", self.config.subscription_id, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<
+322	return self.__vlan_type<EOL>
+323	return self.__value_type<EOL>
+324	p[<NUM_LIT:0>] = p[<NUM_LIT:1>]<EOL>p.set_lineno(<NUM_LIT:0>, p.lineno(<NUM_LIT:1>))<EOL>
+325	return np.asarray(self.shape)<EOL>
+326	kwargs['<STR_LIT>'] = True<EOL>if kwargs.get('<STR_LIT>'):<EOL><INDENT>return self.get_api_with_http_info(**kwargs)<EOL><DEDENT>else:<EOL><INDENT>(data) = self.get_api_with_http_info(**kwargs)<EOL>return data<EOL><DEDENT>
+327	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+328	raise NotImplementedError<EOL>
+329	if len(args) == <NUM_LIT:1>:<EOL><INDENT>args = args[<NUM_LIT:0>]<EOL><DEDENT>elif len(args) == <NUM_LIT:1>:<EOL><INDENT>args[<NUM_LIT:0>] = args[<NUM_LIT:1>]<EOL><DEDENT>else:<EOL><INDENT>args[<NUM_LIT:0>] = args[<NUM_LIT:1>]<EOL><
+330	return self.get_service('<STR_LIT>')<EOL>
+331	if '<STR_LIT>' in kwargs:<EOL><INDENT>kwargs['<STR_LIT>'] = kwargs.get('<STR_LIT>')<EOL><DEDENT>if '<STR_LIT>' not in kwargs:<EOL><INDENT>kwargs['<STR_LIT>'] = kwargs.get('<STR_LIT>')<EOL><DEDENT>kwargs['<STR_LIT>'] = kwargs.get('<STR
+332	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+333	if value is None:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if value is None:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>
+334	raise NotImplementedError<EOL>
+335	return self._updated<EOL>
+336	if isinstance(value, bytes):<EOL><INDENT>return value<EOL><DEDENT>elif isinstance(value, bytes):<EOL><INDENT>return value.decode('<STR_LIT:utf-8>')<EOL><DEDENT>else:<EOL><INDENT>return value.decode('<STR_LIT:utf-8>')<EOL><DEDENT>
+337	<EOL>if self.ndim == <NUM_LIT:1>:<EOL><INDENT>if self.ndim == <NUM_LIT:1>:<EOL><INDENT>if self.ndim == <NUM_LIT:1>:<EOL><INDENT>if self.ndim == <NUM_LIT:1>:<EOL><INDENT>raise ValueError("<STR_LIT>"<EOL>"<STR_LIT>"<EOL>"<STR_LIT>")<EOL><DEDENT
+338	return self.__show_mpls_lsp<EOL>
+339	return self.__lsp_admin_group<EOL>
+340	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+341	raise NotImplementedError<EOL>
+342	
+343	raise NotImplementedError<EOL>
+344	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", self.config.subscription_id, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<
+345	
+346	api_path = "<STR_LIT>"<EOL>api_path = api_path.format(id=id)<EOL>return self.call(api_path, **kwargs)<EOL>
+347	if '<STR_LIT>' not in kwargs:<EOL><INDENT>kwargs['<STR_LIT>'] = '<STR_LIT>'<EOL><DEDENT>return kwargs<EOL>
+348	if isinstance(obj, dict):<EOL><INDENT>return obj<EOL><DEDENT>elif isinstance(obj, dict):<EOL><INDENT>return obj<EOL><DEDENT>else:<EOL><INDENT>return obj<EOL><DEDENT>
+349	return self<EOL>
+350	route_values = {}<EOL>if project is not None:<EOL><INDENT>route_values['<STR_LIT>'] = self._serialize.url('<STR_LIT>', project, '<STR_LIT:str>')<EOL><DEDENT>if project is not None:<EOL><INDENT>route_values['<STR_LIT>'] = self._serialize.url('<STR_LIT>', project, '<STR_LIT:str>')<EOL><DEDENT
+351	p[<NUM_LIT:0>] = p[<NUM_LIT:1>]<EOL>
+352	self.platformName = "<STR_LIT>"<EOL>self.tags = ["<STR_LIT>"]<EOL>self.isValidMode = {}<EOL>self.isValidMode["<STR_LIT>"] = False<EOL>self.isValidMode["<STR_LIT>"] = True<EOL>self.isValidMode["<STR_LIT>"] = False<EOL>self.url = {}<EOL>self.url["<STR_LIT>"] = "<STR_LIT>"
+353	return self.request('<STR_LIT>', '<STR_LIT>')<EOL>
+354	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+355	
+356	return self.__value<EOL>
+357	kwargs['<STR_LIT>'] = '<STR_LIT>'<EOL>return cls(**kwargs)<EOL>
+358	raise NotImplementedError<EOL>
+359	parent = getattr(self, "<STR_LIT>", None)<EOL>if parent is not None and load is False:<EOL><INDENT>raise AttributeError("<STR_LIT>" +<EOL>"<STR_LIT>")<EOL><DEDENT>if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=
+360	return self.__lsp_admin_group<EOL>
+361	for name, value in value.items():<EOL><INDENT>setattr(self, name, value)<EOL><DEDENT>
+362	with open(path, '<STR_LIT:r>') as f:<EOL><INDENT>return f.read()<EOL><DEDENT>
+363	raise NotImplementedError<EOL>
+364	if not hasattr(self, '<STR_LIT>'):<EOL><INDENT>raise TypeError('<STR_LIT>')<EOL><DEDENT>if not hasattr(self, '<STR_LIT>'):<EOL><INDENT>raise TypeError('<STR_LIT>')<EOL><DEDENT>if not hasattr(self, '<STR_LIT>'):<EOL><INDENT>raise TypeError('<STR_LIT>')<EOL><DEDENT>
+365	try:<EOL><INDENT>data = self.get_data()<EOL><DEDENT>except KeyError:<EOL><INDENT>data = {<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR
+366	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+367	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+368	if self.parent is None:<EOL><INDENT>return self.parent<EOL><DEDENT>else:<EOL><INDENT>return None<EOL><DEDENT>
+369	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", self.config.subscription_id, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<
+370	if '<STR_LIT>' in kwargs:<EOL><INDENT>kwargs['<STR_LIT>'] = kwargs.get('<STR_LIT>')<EOL><DEDENT>return kwargs<EOL>
+371	return datetime.datetime.now()<EOL>
+372	api_path = "<STR_LIT>"<EOL>return self.call(api_path, **kwargs)<EOL>
+373	url = '<STR_LIT>'<EOL>params = {<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_L
+374	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+375	self.value = value<EOL>
+376	raise NotImplementedError<EOL>
+377	if len(args) == <NUM_LIT:1>:<EOL><INDENT>args = args[<NUM_LIT:0>]<EOL><DEDENT>elif len(args) == <NUM_LIT:1>:<EOL><INDENT>args[<NUM_LIT:0>] = args[<NUM_LIT:1>]<EOL><DEDENT>else:<EOL><INDENT>args[<NUM_LIT:0>] = args[<NUM_LIT:1>]<EOL><
+378	with open(self._file, '<STR_LIT:r>') as f:<EOL><INDENT>return f.read()<EOL><DEDENT>
+379	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+380	all_params = ['<STR_LIT:body>']  <EOL>all_params.append('<STR_LIT>')<EOL>all_params.append('<STR_LIT>')<EOL>all_params.append('<STR_LIT>')<EOL>all_params.append('<STR_LIT>')<EOL>params = locals()<EOL>for key, val in six.iteritems(params['<STR_LIT>']):<EOL><INDENT>if key not in
+381	if value is None:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if len(value) > <NUM_LIT:1>:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if len(value) > <NUM_LIT:1>:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if len(value) > <NUM_LIT:1>:<
+382	route_values = {}<EOL>if project is not None:<EOL><INDENT>route_values['<STR_LIT>'] = self._serialize.url('<STR_LIT>', project, '<STR_LIT:str>')<EOL><DEDENT>if project is not None:<EOL><INDENT>route_values['<STR_LIT>'] = self._serialize.url('<STR_LIT>', project, '<STR_LIT:str>')<EOL><DEDENT
+383	
+384	raise NotImplementedError<EOL>
+385	return self.__set_<EOL>
+386	return await self.execute_command('<STR_LIT>')<EOL>
+387	if name is None:<EOL><INDENT>name = self.name<EOL><DEDENT>if name is None:<EOL><INDENT>raise ValueError("<STR_LIT>"<EOL>"<STR_LIT>")<EOL><DEDENT>if name is None:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if name is None:<EOL><INDENT>raise ValueError("<STR_LIT>"<EOL>"<STR_
+388	return self.__lsp_config_path<EOL>
+389	return len(self.values)<EOL>
+390	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+391	n = len(x)<EOL>if n == <NUM_LIT:0>:<EOL><INDENT>return n<EOL><DEDENT>else:<EOL><INDENT>return n<EOL><DEDENT>
+392	return self.__traffic_class<EOL>
+393	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+394	if not os.path.exists(filename):<EOL><INDENT>raise ValueError("<STR_LIT>".format(filename))<EOL><DEDENT>if not os.path.exists(filename):<EOL><INDENT>raise ValueError("<STR_LIT>".format(filename))<EOL><DEDENT>if not os.path.exists(filename):<EOL><INDENT>raise ValueError("<STR_LIT>".format(filename))<EOL><DEDENT>if not os
+395	return pprint.pformat(self.to_dict())<EOL>
+396	
+397	return self.__name<EOL>
+398	p[<NUM_LIT:0>] = p[<NUM_LIT:1>]<EOL>
+399	raise NotImplementedError<EOL>
+400	with open(path, '<STR_LIT:r>') as f:<EOL><INDENT>return f.read()<EOL><DEDENT>
+401	ret = self._get_attr("<STR_LIT>")<EOL>return ret<EOL>
+402	raise NotImplementedError<EOL>
+403	p[<NUM_LIT:0>] = p[<NUM_LIT:1>]<EOL>
+404	print('<STR_LIT>' % self.port)<EOL>print('<STR_LIT>')<EOL>print('<STR_LIT>')<EOL>print('<STR_LIT>')<EOL>print('<STR_LIT>')<EOL>
+405	return self._id<EOL>
+406	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", self.config.subscription_id, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<
+407	return self.__priority<EOL>
+408	logger.debug("<STR_LIT>".format(self.__class__.__name__))<EOL>return self.__class__(self.__name__)<EOL>
+409	try:<EOL><INDENT>data = json.loads(data)<EOL><DEDENT>except ValueError:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>return data<EOL>
+410	p[<NUM_LIT:0>] = p[<NUM_LIT:1>]<EOL>p.set_lineno(<NUM_LIT:0>, p.lineno(<NUM_LIT:1>))<EOL>
+411	
+412	return getattr(self, name)<EOL>
+413	if not os.path.isfile(path):<EOL><INDENT>raise ValueError("<STR_LIT>".format(path))<EOL><DEDENT>if not os.path.exists(path):<EOL><INDENT>raise ValueError("<STR_LIT>".format(path))<EOL><DEDENT>return self._path<EOL>
+414	raise NotImplementedError<EOL>
+415	
+416	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+417	return self.__show_mpls_lsp<EOL>
+418	return self.__suppress_state<EOL>
+419	raise NotImplementedError<EOL>
+420	raise NotImplementedError<EOL>
+421	return [self.x, self.y, self.y]<EOL>
+422	data = {<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL
+423	
+424	data_size = <NUM_LIT:0><EOL>data_size += calculate_size_str(name)<EOL>data_size += calculate_size_str(name)<EOL>return data_size<EOL>
+425	return self.__lsp_admin_group<EOL>
+426	p[<NUM_LIT:0>] = p[<NUM_LIT:1>]<EOL>
+427	if '<STR_LIT>' in kwargs:<EOL><INDENT>kwargs['<STR_LIT>'] = kwargs.pop('<STR_LIT>')<EOL><DEDENT>if '<STR_LIT>' in kwargs:<EOL><INDENT>kwargs['<STR_LIT>'] = kwargs.pop('<STR_LIT>')<EOL><DEDENT>if '<STR_LIT>' in kwargs:<EOL><INDENT
+428	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+429	
+430	p[<NUM_LIT:0>] = p[<NUM_LIT:1>]<EOL>
+431	try:<EOL><INDENT>return getattr(self, name)<EOL><DEDENT>except AttributeError:<EOL><INDENT>return None<EOL><DEDENT>
+432	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+433	return self.shape[<NUM_LIT:0>]<EOL>
+434	return False<EOL>
+435	return self.__interfaces<EOL>
+436	
+437	api_path = "<STR_LIT>"<EOL>return self.call(api_path, **kwargs)<EOL>
+438	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+439	raise NotImplementedError<EOL>
+440	<EOL>if '<STR_LIT>' in kwargs:<EOL><INDENT>kwargs['<STR_LIT>'] = kwargs.get('<STR_LIT>')<EOL><DEDENT>else:<EOL><INDENT>kwargs['<STR_LIT>'] = kwargs.get('<STR_LIT>')<EOL><DEDENT>kwargs['<STR_LIT>'] = kwargs.get('<STR_LIT>')<EOL>
+441	return self._post(<EOL>'<STR_LIT>',<EOL>data={<EOL>'<STR_LIT>': client_id,<EOL>'<STR_LIT>': client_id,<EOL>'<STR_LIT>': client_id,<EOL>'<STR_LIT>': client_id,<EOL>}<EOL>)<EOL>
+442	try:<EOL><INDENT>return getattr(obj, attr)<EOL><DEDENT>except AttributeError:<EOL><INDENT>pass<EOL><DEDENT>
+443	return self.value<EOL>
+444	raise NotImplementedError<EOL>
+445	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+446	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+447	raise NotImplementedError<EOL>
+448	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+449	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+450	return self.__priority<EOL>
+451	if '<STR_LIT>' not in kwargs:<EOL><INDENT>kwargs['<STR_LIT>'] = kwargs.get('<STR_LIT>')<EOL><DEDENT>return kwargs<EOL>
+452	return self.name<EOL>
+453	raise NotImplementedError<EOL>
+454	return self.__default_route_map<EOL>
+455	return self._name<EOL>
+456	raise NotImplementedError<EOL>
+457	<EOL>if kwargs.get("<STR_LIT>"):<EOL><INDENT>kwargs["<STR_LIT>"] = kwargs.get("<STR_LIT>")<EOL><DEDENT>else:<EOL><INDENT>kwargs["<STR_LIT>"] = kwargs.get("<STR_LIT>")<EOL><DEDENT>kwargs["<STR_LIT>"] = kwargs.get("<STR_LIT>")<EOL>
+458	p[<NUM_LIT:0>] = p[<NUM_LIT:1>]<EOL>
+459	with open(path, '<STR_LIT:r>') as f:<EOL><INDENT>return f.read()<EOL><DEDENT>
+460	<EOL>if kwargs.get('<STR_LIT>', <NUM_LIT:0>) != <NUM_LIT:0>:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if kwargs.get('<STR_LIT>', <NUM_LIT:0>) != <NUM_LIT:0>:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if kwargs.get('<
+461	raise NotImplementedError<EOL>
+462	<EOL>logger = logging.getLogger('<STR_LIT>')<EOL>logger.info('<STR_LIT>')<EOL>logger.info('<STR_LIT>'<EOL>'<STR_LIT>')<EOL>logger.info('<STR_LIT>')<EOL>logger.info('<STR_LIT>')<EOL>logger.info('<STR_LIT>')<EOL>logger.info('<STR_LIT
+463	raise NotImplementedError<EOL>
+464	<EOL>if len(x) == <NUM_LIT:1>:<EOL><INDENT>x = x[<NUM_LIT:0>]<EOL><DEDENT>elif len(x) == <NUM_LIT:2>:<EOL><INDENT>x = x[<NUM_LIT:0>]<EOL><DEDENT>else:<EOL><INDENT>x = x[<NUM_LIT:0>]<EOL><DEDENT>x = x[<NUM_LIT:
+465	return json.dumps(self._to_dict(), indent=<NUM_LIT:2>)<EOL>
+466	return self.__width<EOL>
+467	return self.__interface_type<EOL>
+468	if size < <NUM_LIT:0>:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if size < <NUM_LIT:0>:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if size > <NUM_LIT:0>:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT>if size > <NUM_LIT:0>:<EOL><
+469	return self.__priority<EOL>
+470	return datetime.datetime.utcnow()<EOL>
+471	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", self.config.subscription_id, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<
+472	data = {<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL
+473	def decorator(func):<EOL><INDENT>"""<STR_LIT>"""<EOL>def wrapper(*args, **kwargs):<EOL><INDENT>"""<STR_LIT>"""<EOL>if kwargs is None:<EOL><INDENT>kwargs["<STR_LIT>"] = kwargs.get("<STR_LIT>")<EOL><DEDENT>else:<EOL><INDENT>kwargs["<STR_LIT>"] = kwargs.get("<
+474	p[<NUM_LIT:0>] = p[<NUM_LIT:1>]<EOL>
+475	route_values = {}<EOL>if project is not None:<EOL><INDENT>route_values['<STR_LIT>'] = self._serialize.url('<STR_LIT>', project, '<STR_LIT:str>')<EOL><DEDENT>if project is not None:<EOL><INDENT>route_values['<STR_LIT>'] = self._serialize.url('<STR_LIT>', project, '<STR_LIT:str>')<EOL><DEDENT
+476	return self.__ipv6_address<EOL>
+477	pass<EOL>
+478	<EOL>url = self.get.metadata['<STR_LIT:url>']<EOL>path_format_arguments = {<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", self.config.subscription_id, '<STR_LIT:str>'),<EOL>'<STR_LIT>': self._serialize.url("<STR_LIT>", resource_group_name, '<STR_LIT:str>'),<EOL>'<
+479	api_path = "<STR_LIT>"<EOL>api_path = api_path.format(id=id)<EOL>return self.call(api_path, **kwargs)<EOL>
+480	return self.__hold_time<EOL>
+481	
+482	with open(filename, '<STR_LIT:r>') as f:<EOL><INDENT>return f.read()<EOL><DEDENT>
+483	args = {}<EOL>if '<STR_LIT>' in _dict:<EOL><INDENT>args['<STR_LIT>'] = _dict.get('<STR_LIT>')<EOL><DEDENT>if '<STR_LIT>' in _dict:<EOL><INDENT>args['<STR_LIT>'] = _dict.get('<STR_LIT>')<EOL><DEDENT>if '<STR_LIT>' in _dict:<EOL><INDENT
+484	return '<STR_LIT>'<EOL>
+485	if '<STR_LIT>' not in kwargs:<EOL><INDENT>kwargs['<STR_LIT>'] = '<STR_LIT>'<EOL><DEDENT>return kwargs<EOL>
+486	self.logger.warn("<STR_LIT>")<EOL>self._name = value<EOL>
+487	p[<NUM_LIT:0>] = p[<NUM_LIT:1>]<EOL>
+488	return self.__hold_time<EOL>
+489	api_path = "<STR_LIT>"<EOL>api_path = api_path.format(id=id)<EOL>return self.call(api_path, **kwargs)<EOL>
+490	raise NotImplementedError<EOL>
+491	return self.__edge_port<EOL>
+492	return self.__status<EOL>
+493	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+494	with open(filename, '<STR_LIT:r>') as f:<EOL><INDENT>return f.read()<EOL><DEDENT>
+495	return self.__interface_name<EOL>
+496	if hasattr(v, "<STR_LIT>"):<EOL><INDENT>v = v._utype(v)<EOL><DEDENT>try:<EOL><INDENT>t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="<STR_LIT>", rest_name="<STR_LIT>", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions
+497	return {<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>'<STR_LIT>': '<STR_LIT>',<EOL>
+498	if '<STR_LIT>' in kwargs:<EOL><INDENT>kwargs['<STR_LIT>'] = kwargs.get('<STR_LIT>')<EOL><DEDENT>if '<STR_LIT>' not in kwargs:<EOL><INDENT>kwargs['<STR_LIT>'] = kwargs.get('<STR_LIT>')<EOL><DEDENT>kwargs['<STR_LIT>'] = kwargs.get('<STR
+499	raise NotImplementedError<EOL>

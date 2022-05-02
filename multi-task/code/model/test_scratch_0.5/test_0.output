@@ -1,0 +1,10 @@
+0	p[<NUM_LIT:0>] = p[<NUM_LIT:1>]<EOL>
+1	if not isinstance(node, list):<EOL><INDENT>node_list = list(node.keys())<EOL><DEDENT>else:<EOL><INDENT>node_list = list(node.keys())<EOL><DEDENT>return node_list<EOL>
+2	return None<EOL>
+3	if len(data) == <NUM_LIT:0>:<EOL><INDENT>return []<EOL><DEDENT>if len(data) == <NUM_LIT:0>:<EOL><INDENT>return []<EOL><DEDENT>if len(data) == <NUM_LIT:0>:<EOL><INDENT>return [data[<NUM_LIT:0>] for data in data]<EOL><DEDENT>if len(data) == <NUM_LIT:0>:<EOL><
+4	try:<EOL><INDENT>if event.startswith("<STR_LIT>") and event.startswith("<STR_LIT>"):<EOL><INDENT>return<EOL><DEDENT>else:<EOL><INDENT>return<EOL><DEDENT><DEDENT>except AttributeError:<EOL><INDENT>return<EOL><DEDENT>
+5	ret = self._get_attr("<STR_LIT>")<EOL>return ret<EOL>
+6	if x is None:<EOL><INDENT>x = np.array(x)<EOL><DEDENT>else:<EOL><INDENT>x = np.array(x)<EOL><DEDENT>return np.array(x)<EOL>
+7	if val is not None:<EOL><INDENT>if val is not None:<EOL><INDENT>raise ValueError("<STR_LIT>")<EOL><DEDENT><DEDENT>
+8	raise NotImplementedError<EOL>
+9	raise NotImplementedError()<EOL>

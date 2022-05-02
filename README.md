@@ -54,3 +54,13 @@ Some checkpoints can be found in this link https://drive.google.com/drive/folder
 (test_0.2 means when \alpha is set to 0.2)   
 3. `sh infer.sh`
 Aftrer running this script, under `output_dir` you can find some .output files where you find the outputs of the model.
+
+## How to evaluate
+1. `cd multi-task/code`
+2. open evaluate.sh, specify the path to .gold file and the path to .output file. They can be found under `output_dir`
+3. `sh evaluate.sh`  
+After running this script, you may have the following output:
+```
+Total: 500
+21.301916237468262
+```
